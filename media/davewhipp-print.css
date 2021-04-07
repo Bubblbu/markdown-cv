@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,25 +91,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -56,7 +143,7 @@ body {
 	font-size: 12pt;
 	line-height: 1.35em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
-	font-family: Avenir,Verdana,sans-serif;
+	font-family: Avenir, Verdana, sans-serif;
 	/*margin-top: 1em;
 	margin-left: 1em;*/
 }
@@ -73,7 +160,7 @@ code {
 	font: normal normal;
 	font-size: 90%;
 	/*line-height: 1em;*/
-	font-family: Monaco,Menlo,monospace,sans-serif;
+	font-family: Monaco, Menlo, monospace, sans-serif;
 	color: #ccc;
 }
 
@@ -113,9 +200,12 @@ li ul {
 	margin-top: 0.25em;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
 	font-weight: 400;
-	font-family: Avenir,Cousine,Verdana,sans-serif;
+	font-family: Avenir, Cousine, Verdana, sans-serif;
 	width: 80%;
 }
 
@@ -156,11 +246,11 @@ h3 {
 
 a {
 	color: inherit;
-	text-decoration:none
+	text-decoration: none
 }
 
 a:hover {
-	color:#39f
+	color: #39f
 }
 
 #webaddress {
@@ -168,7 +258,7 @@ a:hover {
 	position: relative;
 	left: 25%;
 	color: #ccc;
-	font-family: Monaco,Menlo,monospace,sans-serif;
+	font-family: Monaco, Menlo, monospace, sans-serif;
 	font-size: 90%;
 }
 
@@ -189,6 +279,3 @@ strong {
 	display: none;
 	visibility: hidden;
 }
-
-
-
