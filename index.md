@@ -11,8 +11,7 @@ Data Scientist, PhD Candidate
 <a href="mailto:asura.enkhbayar@gmail.com">email: asura.enkhbayar@gmail.com</a>
 <br>
 <a href="https://twitter.com/bubblbu_">twitter: bubblbu_</a>,
-<a href="https://github.com/bubblbu">github: bubblbu</a>,
-<a href="https://scholar.google.com/citations?user=0CeeRv0AAAAJ&hl=en">scholar</a>
+<a href="https://github.com/bubblbu">github: bubblbu</a>
 </div>
 
 ## Currently
@@ -23,24 +22,24 @@ working as a data scientist and working on an interdisciplinary PhD crossing the
 
 ### Data in Practice
 
-- Data analysis in *Python*, R 
-  - Highly experienced data collection (e.g., *APIs* or text-processing)
+- Data analysis in Python, R
+  - Highly experienced data collection (e.g., APIs or text-processing)
   - Highly experienced in data (structure) management
-  - Highly experienced in *analysis*, *visualization*, and presentation
+  - Highly experienced in analysis, visualization, and presentation
 - Familiar with web development
   - Experience with databases
-  - Worked on small to middle-sized projects as a *full-stack* developer
+  - Worked on small to middle-sized projects as a full-stack developer
 - Comfortable with Open *
-  - Experienced with *Open Source development*
-  - Experienced in setting up *open data and code* for research projects
+  - Experienced with Open Source development
+  - Experienced in setting up open data and code for research projects
   - Have worked remotely with distributed teams for 4+ years
 
 ### Data in Theory
 
-- Social and technical dimension of *infrastructure*
+- Social and technical dimension of infrastructure
 - Critical and feminist approaches to data studies
 - Citation theory
-- The politics of *scholarly metrics*
+- The politics of scholarly metrics
 
 <!-- ## Research interests
 
@@ -78,116 +77,87 @@ __University of Applied Sciences Technikum__ (Vienna, Austria)
 `2016`
 *Interdisciplinary College in Cognitive Science*, Günne, Germany
 
-## Experience & Occupation
+## Research Experience
 
 `Oct 2017 — ongoing`
 __ScholCommLab__ [🔗](https://scholcommlab.ca) Vancouver, CA
 
 - Data scientist on projects exploring the public dimension of scholarly communication 
-- Area: *scholarly communication*, *altmetrics*, *research infrastructures*
+- Focus: *scholarly communication*, *altmetrics*, *research infrastructures*
 
 `Jan 2015 — Dec 2015`
 __KnowCenter__ [🔗](https://www.know-center.tugraz.at/en/) Graz, AT
 
 - Junior researcher in open science and scientometrics
-- Area: *open science*, *altmetrics*, *science 2.0*
+- Focus: *open science*, *altmetrics*, *science 2.0*
 
 `Mar 2015 — Oct 2015`
 __VRVis__ [🔗](https://www.vrvis.at/en/) Vienna, AT
 
 - Junior researcher on various medical imaging and analysis projects
-- Area: *Medical Imaging*, *Image Processing & Analysis*, *Machine Learning*
+- Focus: *medical imaging*, *image processing*, *machine learning*
 
 `Oct 2014 — Dec 2014`
 __KnowCenter__ [🔗](https://www.know-center.tugraz.at/en/) Graz, AT
 
 - Internship on impact and dissemination of persistent document identifiers in scientific publishing
-- *science 2.0*, *social computing*, *scientometrics*
+- Focus: *science 2.0*, *social computing*, *scientometrics*
 
 `Jul 2014 — Sep 2014`
 __VRVis__ [🔗](https://www.vrvis.at/en/) Vienna, AT
 
 - Summer internship developing machine learning models in the automatized diagnosis of osteoporosis
-- *machine learning*, *medical imaging*
-
-### Volunteering & Open Source
-
-`2015 — 2012`
-**Open Knowledge Maps** [🔗](https://openknowledgemaps.org/)
-
-- Developer and team member. Core contributor to the codebase. Represented the project at several conferences.
-
-`Jul 2018`
-**Open Source Alliance for Open Scholarship (OASOS)** [🔗](https://osaos.codeforscience.org/) New York, USA
-
-- Contributor to the development of the [Open Source Alliance for Open Scholarship (OASOS) Handbook](https://osaos.codeforscience.org/) hosted by Code for Science and Society.
-
-`May 2018`
-**eLife Innovation Sprint** [🔗](https://sprint.elifesciences.org/sprint-2018/) Cambridge, UK
-
-- Participant at the first eLife Innovation Sprint was an Open Source coding sprint dedicated to scientific publishing.
+- Focus: *machine learning*, *medical imaging*
 
 ## Awards
 
 `Sep 2020`
-_Graduate Fellowship_, Simon Fraser University (7000$C)
+_Graduate Fellowship_, Simon Fraser University (7000 CAD)
 
 - 
 
 `Jul 2020`
-_Frictionless Tool Fund Grant_ (5000$)
+_Frictionless Tool Fund Grant_ (5000 USD)
 
-- Grant awarded to develop a new Open Source tool with Frictionless
+- Grant awarded to develop a new Open Source tool with Frictionless [🔗](https://frictionlessdata.io/)
 
 `Jan 2019`
-_Graduate Fellowship_, Simon Fraser University (6500$C) 
+_Graduate Fellowship_, Simon Fraser University (6500 CAD) 
 
 - 
+
+`Jan 2019`
+_Travel & Minor Research Award_, Simon Fraser University (500 CAD)
+
+- Travel scholarship to attend and present STI in Leiden, Netherlands.
+
+`May 2018`
+_Travel Scholarship_, ELPUB (1000 CAD)
+
+Travel scholarship to attend and present at ELPUB in Toronto, Canada.
 
 `Sep 2017`
-_Special Grad Entrance Scholarship_, Simon Fraser University (1146$C) 
+_Special Grad Entrance Scholarship_, Simon Fraser University (1146 CAD) 
 
-- 
 
 `Nov 2016`
-_Invitation to OpenCon 2016 - Travel Grant_
+_Invitation to OpenCon 2016 - Travel Grant_ (1500 USD)
 
 - Competitively-awarded invitation to OpenCon (Washington D.C., USA) and travel grant.
 
 `Sep 2015`
-_RDA Early Career European Researchers Programme - Travel Grant_
+_RDA Early Career European Researchers Programme - Travel Grant_ (1500 EUR)
 
 - Travel grant to attend RDA 2015 as an early career researcher in Paris, FR.
 
 `Oct 2014`
-_INiTS Award - 3rd Place_ (1000€)
+_INiTS Award - 3rd Place_ (1000 EUR)
 
 - INiTS awards innovative scientific works with prospect for economic applicability with the INiTS Award
 
-## Service
+## Publications 
 
-### Advisory Boards
-
-`2020 — ongoing`
-Open Knowledge Maps [🔗](https://openknowledgemaps.org/)
-
-### Organizing Committees
-
-`2021`
-*FORCE11* [🔗](https://www.force11.org/), online
-
-`2020`
-*FORCE11* [🔗](https://www.force11.org/), San Sebastian, Spain (postponed due to Covid-19)
-
-`2019`
-*OpenCon Cascadia* [🔗](https://opencon-cascadia.github.io/about/), Portland
-
-`2017`
-*OpenCon* [🔗](https://www.opencon.community/), Berlin
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+a list of publications is available online: [https://scholar.google.com/citations?user=0CeeRv0AAAAJ](https://scholar.google.com/citations?user=0CeeRv0AAAAJ&hl=en)
 
 ### Journal Articles
 
@@ -267,6 +237,44 @@ Open Science and Global Communication Divides. CMNS 346 (Development Communicati
 
 `2016`
 **Enkhbayar, A.** (2016b, June 23). Raiders of the Lost Work [Workshop]. *MEi:CogSci Conference 2016*, Vienna. [http://www.univie.ac.at/meicogsci/php/ocs/index.php/meicog/meicog2016/paper/view/934](http://www.univie.ac.at/meicogsci/php/ocs/index.php/meicog/meicog2016/paper/view/934)
+
+## Service
+
+### Volunteering & Open Source
+
+`2015 — 2012`
+**Open Knowledge Maps** [🔗](https://openknowledgemaps.org/)
+
+- Developer and team member. Core contributor to the codebase. Represented the project at several conferences.
+
+`Jul 2018`
+**Open Source Alliance for Open Scholarship (OASOS)** [🔗](https://osaos.codeforscience.org/) New York, USA
+
+- Contributor to the development of the [Open Source Alliance for Open Scholarship (OASOS) Handbook](https://osaos.codeforscience.org/) hosted by Code for Science and Society.
+
+`May 2018`
+**eLife Innovation Sprint** [🔗](https://sprint.elifesciences.org/sprint-2018/) Cambridge, UK
+
+- Participant at the first eLife Innovation Sprint was an Open Source coding sprint dedicated to scientific publishing.
+
+### Advisory Boards
+
+`2020 — ongoing`
+Open Knowledge Maps [🔗](https://openknowledgemaps.org/)
+
+### Organizing Committees
+
+`2021`
+*FORCE11* [🔗](https://www.force11.org/), online
+
+`2020`
+*FORCE11* [🔗](https://www.force11.org/), San Sebastian, Spain (postponed due to Covid-19)
+
+`2019`
+*OpenCon Cascadia* [🔗](https://opencon-cascadia.github.io/about/), Portland
+
+`2017`
+*OpenCon* [🔗](https://www.opencon.community/), Berlin
 
 ### Last updated
 
