@@ -23,23 +23,24 @@ working as a data scientist and working on an interdisciplinary PhD crossing the
 
 ### Data in Practice
 
-- Collecting, wrangling, and analyzing data
-  - Highly experienced in Python, R
-  - Highly proficient with APIs, data management & processing
-  - Highly experienced in data analysis, data visualization and presentation
-- Web development
-  - Familiar with full-stack development
-- Comfortable working in the open
-  - Experienced with Open Source development
-  - Experienced in setting up open data and code for research projects
+- Data analysis in *Python*, R 
+  - Highly experienced data collection (e.g., *APIs* or text-processing)
+  - Highly experienced in data (structure) management
+  - Highly experienced in *analysis*, *visualization*, and presentation
+- Familiar with web development
+  - Experience with databases
+  - Worked on small to middle-sized projects as a *full-stack* developer
+- Comfortable with Open *
+  - Experienced with *Open Source development*
+  - Experienced in setting up *open data and code* for research projects
+  - Have worked remotely with distributed teams for 4+ years
 
 ### Data in Theory
 
-- Social and technical dimension of infrastructure
+- Social and technical dimension of *infrastructure*
 - Critical and feminist approaches to data studies
-- The politics of scholarly metrics
-  - citations, altmetrics, webometrics
 - Citation theory
+- The politics of *scholarly metrics*
 
 <!-- ## Research interests
 
@@ -151,7 +152,7 @@ _Special Grad Entrance Scholarship_, Simon Fraser University (1146$C)
 `Nov 2016`
 _Invitation to OpenCon 2016 - Travel Grant_
 
-- Competitively-awarded invitation to OpenCon (Washington, D.C., USA) and travel grant.
+- Competitively-awarded invitation to OpenCon (Washington D.C., USA) and travel grant.
 
 `Sep 2015`
 _RDA Early Career European Researchers Programme - Travel Grant_
@@ -159,7 +160,7 @@ _RDA Early Career European Researchers Programme - Travel Grant_
 - Travel grant to attend RDA 2015 as an early career researcher in Paris, FR.
 
 `Oct 2014`
-_INiTS Award - 3rd Place_ (1,000€)
+_INiTS Award - 3rd Place_ (1000€)
 
 - INiTS awards innovative scientific works with prospect for economic applicability with the INiTS Award
 
