@@ -1,0 +1,20 @@
+{
+  "name": "markdown-cv",
+  "version": "1.0.0",
+  "description": "markdown-cv ===========",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bubblbu/markdown-cv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bubblbu/markdown-cv/issues"
+  },
+  "homepage": "https://bubblbu.github.com/markdown-cv"
+}
