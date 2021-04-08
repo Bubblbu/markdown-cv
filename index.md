@@ -57,7 +57,7 @@ __University of Vienna__ (Vienna, Austria) & __University of Ljubljana__ (Ljublj
 Completed all coursework towards MSc in Cognitive Science
 
 `2010 — 2014`
-__University of Applied Sciences Technikum__ (Vienna, Austria)  ****
+__University of Applied Sciences Technikum__ (Vienna, Austria)  
 BSc, Electronics  
 Exchange semester at the University of Loughborough, UK in 2013
 
