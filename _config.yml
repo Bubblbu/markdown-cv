@@ -1,9 +1,0 @@
-markdown: kramdown
-sass:
-  sass_dir: _sass
-  style: compressed
-plugins:
-  - jekyll-font-awesome-sass
-font-awesome:
-  assets: true
-
