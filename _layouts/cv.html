@@ -3,14 +3,11 @@
 
 <head>
   <meta charset=utf-8 />
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css"
-    integrity="sha384-G9DpmGxRIF6tpgbrkZVcZDeIomEU22LgTguPAI739bbKytjPE/kHTK5YxjJAAEXC" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="{{ '/assets/css/screen.css' | relative_url }}" rel="stylesheet" media="screen">
+  <link href="{{ '/assets/css/print.css' | relative_url }}" rel="stylesheet" media="print">
 
-  <title> {% if page.title %} {{ page.title }} | {% endif %} CV</title>
-  <!-- <link href="media/{{ site.style }}-screen.css" type="text/css" rel="stylesheet" media="screen"> -->
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link href="media/{{ site.style }}-print.css" type="text/css" rel="stylesheet" media="print">
+  <title> {{ page.title }} </title>
 </head>
 
 <body>
