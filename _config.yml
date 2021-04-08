@@ -1,5 +1,4 @@
 markdown: kramdown
-# style: davewhipp
 sass:
   sass_dir: _sass
   style: compressed
