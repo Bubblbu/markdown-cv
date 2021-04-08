@@ -7,6 +7,5 @@ gem 'jekyll-font-awesome-sass'
 gem 'kramdown'
 gem "kramdown-parser-gfm"
 gem "sassc", "2.1.0"
-gem "purecss-sass"
 gem "github-pages"
 gem "jekyll-pandoc", "~> 2.0"

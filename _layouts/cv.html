@@ -6,14 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="{{ '/assets/css/screen.css' | relative_url }}" rel="stylesheet" media="screen">
   <link href="{{ '/assets/css/print.css' | relative_url }}" rel="stylesheet" media="print">
-
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
   <title> {{ page.title }} </title>
 </head>
 
 <body>
   <div id="main">
-    <div id="content">
-      {{ content }}
+    <div class="pure-g" id="content">
+      <div class="pure-u-1-1">
+        {{ content }}
+      </div>
     </div>
   </div>
 </body>
