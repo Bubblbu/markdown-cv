@@ -1,2 +1,10 @@
 markdown: kramdown
-style: davewhipp
+# style: davewhipp
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-font-awesome-sass
+font-awesome:
+  assets: true
+

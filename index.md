@@ -8,10 +8,11 @@ title: Asura Enkhbayar's CV
 Data Scientist, PhD Candidate
 
 <div id="webaddress">
-<a href="mailto:asura.enkhbayar@gmail.com">email: asura.enkhbayar@gmail.com</a>
+<a href="mailto:asura.enkhbayar@gmail.com"><i class="fas fa-envelope-square"></i> asura.enkhbayar@gmail.com</a>
 <br>
-<a href="https://twitter.com/bubblbu_">twitter: bubblbu_</a>,
-<a href="https://github.com/bubblbu">github: bubblbu</a>
+<a href="https://twitter.com/bubblbu_"><i class="fab fa-twitter"></i> bubblbu_</a> 
+<a href="https://github.com/bubblbu"><i class="fab fa-github"></i> bubblbu</a>
+<a href="https://orcid.org/0000-0002-3934-026X"><i class="fab fa-orcid"></i> 0000-0002-3934-026X</a>
 </div>
 
 ## Currently
@@ -80,31 +81,31 @@ __University of Applied Sciences Technikum__ (Vienna, Austria)
 ## Research Experience
 
 `Oct 2017 — ongoing`
-__ScholCommLab__ [🔗](https://scholcommlab.ca) Vancouver, CA
+__ScholCommLab__ [<i class="fas fa-external-link-alt"></i>](https://scholcommlab.ca) Vancouver, CA
 
 - Data scientist on projects exploring the public dimension of scholarly communication 
 - Focus: *scholarly communication*, *altmetrics*, *research infrastructures*
 
 `Jan 2015 — Dec 2015`
-__KnowCenter__ [🔗](https://www.know-center.tugraz.at/en/) Graz, AT
+__KnowCenter__ [<i class="fas fa-external-link-alt"></i>](https://www.know-center.tugraz.at/en/) Graz, AT
 
 - Junior researcher in open science and scientometrics
 - Focus: *open science*, *altmetrics*, *science 2.0*
 
 `Mar 2015 — Oct 2015`
-__VRVis__ [🔗](https://www.vrvis.at/en/) Vienna, AT
+__VRVis__ [<i class="fas fa-external-link-alt"></i>](https://www.vrvis.at/en/) Vienna, AT
 
 - Junior researcher on various medical imaging and analysis projects
 - Focus: *medical imaging*, *image processing*, *machine learning*
 
 `Oct 2014 — Dec 2014`
-__KnowCenter__ [🔗](https://www.know-center.tugraz.at/en/) Graz, AT
+__KnowCenter__ [<i class="fas fa-external-link-alt"></i>](https://www.know-center.tugraz.at/en/) Graz, AT
 
 - Internship on impact and dissemination of persistent document identifiers in scientific publishing
 - Focus: *science 2.0*, *social computing*, *scientometrics*
 
 `Jul 2014 — Sep 2014`
-__VRVis__ [🔗](https://www.vrvis.at/en/) Vienna, AT
+__VRVis__ [<i class="fas fa-external-link-alt"></i>](https://www.vrvis.at/en/) Vienna, AT
 
 - Summer internship developing machine learning models in the automatized diagnosis of osteoporosis
 - Focus: *machine learning*, *medical imaging*
@@ -119,7 +120,7 @@ _Graduate Fellowship_, Simon Fraser University (7000 CAD)
 `Jul 2020`
 _Frictionless Tool Fund Grant_ (5000 USD)
 
-- Grant awarded to develop a new Open Source tool with Frictionless [🔗](https://frictionlessdata.io/)
+- Grant awarded to develop a new Open Source tool with Frictionless. 
 
 `Jan 2019`
 _Graduate Fellowship_, Simon Fraser University (6500 CAD) 
@@ -243,38 +244,38 @@ Open Science and Global Communication Divides. CMNS 346 (Development Communicati
 ### Volunteering & Open Source
 
 `2015 — 2012`
-**Open Knowledge Maps** [🔗](https://openknowledgemaps.org/)
+**Open Knowledge Maps** [<i class="fas fa-external-link-alt"></i>](https://openknowledgemaps.org/)
 
 - Developer and team member. Core contributor to the codebase. Represented the project at several conferences.
 
 `Jul 2018`
-**Open Source Alliance for Open Scholarship (OASOS)** [🔗](https://osaos.codeforscience.org/) New York, USA
+**Open Source Alliance for Open Scholarship (OASOS)** [<i class="fas fa-external-link-alt"></i>](https://osaos.codeforscience.org/) New York, USA
 
 - Contributor to the development of the [Open Source Alliance for Open Scholarship (OASOS) Handbook](https://osaos.codeforscience.org/) hosted by Code for Science and Society.
 
 `May 2018`
-**eLife Innovation Sprint** [🔗](https://sprint.elifesciences.org/sprint-2018/) Cambridge, UK
+**eLife Innovation Sprint** [<i class="fas fa-external-link-alt"></i>](https://sprint.elifesciences.org/sprint-2018/) Cambridge, UK
 
 - Participant at the first eLife Innovation Sprint was an Open Source coding sprint dedicated to scientific publishing.
 
 ### Advisory Boards
 
 `2020 — ongoing`
-Open Knowledge Maps [🔗](https://openknowledgemaps.org/)
+Open Knowledge Maps [<i class="fas fa-external-link-alt"></i>](https://openknowledgemaps.org/)
 
 ### Organizing Committees
 
 `2021`
-*FORCE11* [🔗](https://www.force11.org/), online
+*FORCE11* [<i class="fas fa-external-link-alt"></i>](https://www.force11.org/), online
 
 `2020`
-*FORCE11* [🔗](https://www.force11.org/), San Sebastian, Spain (postponed due to Covid-19)
+*FORCE11* [<i class="fas fa-external-link-alt"></i>](https://www.force11.org/), San Sebastian, Spain (postponed due to Covid-19)
 
 `2019`
-*OpenCon Cascadia* [🔗](https://opencon-cascadia.github.io/about/), Portland
+*OpenCon Cascadia* [<i class="fas fa-external-link-alt"></i>](https://opencon-cascadia.github.io/about/), Portland
 
 `2017`
-*OpenCon* [🔗](https://www.opencon.community/), Berlin
+*OpenCon* [<i class="fas fa-external-link-alt"></i>](https://www.opencon.community/), Berlin
 
 ### Last updated
 
