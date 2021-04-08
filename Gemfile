@@ -1,11 +1,10 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source "http://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
+gem 'jekyll'
 gem 'jekyll-font-awesome-sass'
 gem 'kramdown'
-# gem "rails"
-
 gem "kramdown-parser-gfm", "~> 1.1"
+gem "sassc", "2.1.0"
+gem "purecss-sass", "~> 2.0"
