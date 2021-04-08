@@ -1,0 +1,23 @@
+{
+  "name": "markdown-cv",
+  "version": "1.0.0",
+  "description": "This is my CV written in markdown and rendered by Jekyll.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d _site",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bubblbu/markdown-cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bubblbu/markdown-cv/issues"
+  },
+  "homepage": "https://github.com/Bubblbu/markdown-cv#readme",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
