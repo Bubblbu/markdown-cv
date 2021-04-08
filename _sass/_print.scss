@@ -1,142 +1,57 @@
+$light-gray: #ccc;
+
 body {
-	font: normal normal 400;
 	font-size: 12pt;
 	line-height: 1.35em;
-	/*also written as...  font: normal normal 400 100%/1.5em;*/
-	font-family: Avenir, Verdana, sans-serif;
-	/*margin-top: 1em;
-	margin-left: 1em;*/
-}
+	margin: 2em 2em 2em 2em;
 
-p {
-	position: relative;
-	left: 25%;
-	margin-bottom: 0.2em;
-	margin-right: 0;
-	width: 60%;
-}
+	p {
+		// left: $left-margin;
+		margin-bottom: 0.2em;
+		width: 60%;
+	}
 
-code {
-	font: normal normal;
-	font-size: 90%;
-	/*line-height: 1em;*/
-	font-family: Monaco, Menlo, monospace, sans-serif;
-	color: #ccc;
-}
-
-p code {
-	position: absolute;
-	text-align: right;
-	right: -20%;
-}
+	code {
+		color: $light-gray;
+	}
 
 
-ul {
-	position: relative;
-	left: 25%;
-	width: 75%;
-	margin-bottom: 1em;
-	/*margin-top: -0.5em;*/
-}
+	ul {
+		margin-bottom: 1em;
+	}
 
-/*uncomment to get dashes in the list*/
-/*li:before {
-	content: "-";
-	position: relative;
-	left: -0.25em;
-}*/
+	h2 {
+		color: #a00;
+		margin-top: 2em;
+		position: relative;
+		top: 1.2em;
+	}
 
-li {
-	/*second line indent*/
-	padding-left: 1.25em;
-	text-indent: -1.25em;
-	/*color: #777;*/
-}
+	h3 {
+		color: $light-gray;
+		top: 1.6em;
+	}
 
-li ul {
-	position: relative;
-	left: 0;
-	width: 100%;
-	margin-top: 0.25em;
-}
+	a {
+		text-decoration: none
+	}
 
-h1,
-h2,
-h3,
-h4 {
-	
-	font-weight: 400;
-	font-family: Avenir, Cousine, Verdana, sans-serif;
-	width: 80%;
-}
+	#webaddress p {
+		margin-top: 1em;
+		position: relative;
+		left: 25%;
+		color: $light-gray;
+		font-family: Monaco, Menlo, monospace, sans-serif;
+		font-size: 90%;
 
-h1 {
-	text-align: left;
-	font-size: 3em;
-	line-height: 1em;
-	position: relative;
-	left: 25%;
-}
+		a {
+			text-decoration: none;
+		}
+	}
 
-h1+p {
-	/*subtitle*/
-	font-style: italic;
-	font-size: 110%;
-}
+	em {
+		font-style: normal;
+		color: #2d4e5e;
+	}
 
-h2 {
-	font-size: 1.1em;
-	color: #a00;
-	margin-top: 2em;
-	position: relative;
-	top: 1.2em;
-	text-align: right;
-	width: 20%;
-}
-
-
-h3 {
-	font-size: 1em;
-	line-height: 2em;
-	color: #ccc;
-	position: relative;
-	top: 1.6em;
-	text-align: right;
-	width: 20%;
-}
-
-a {
-	color: inherit;
-	text-decoration: none
-}
-
-a:hover {
-	color: #39f
-}
-
-#webaddress {
-	margin-top: 1em;
-	position: relative;
-	left: 25%;
-	color: #ccc;
-	font-family: Monaco, Menlo, monospace, sans-serif;
-	font-size: 90%;
-}
-
-#webaddress a {
-	text-decoration: none;
-}
-
-em {
-	font-style: normal;
-	color: #2d4e5e
-}
-
-strong {
-	font-weight: bold;
-}
-
-#ghbutton {
-	display: none;
-	visibility: hidden;
 }

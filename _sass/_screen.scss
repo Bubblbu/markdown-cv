@@ -1,145 +1,138 @@
+$left-margin: 25%;
+$red: #bc412b;
+$link-blue: #39f;
+$years-gray: #aaa;
+
 body {
     font: normal normal 400;
     font-size: 100%;
     line-height: 1.5em;
-    /*also written as...  font: normal normal 400 100%/1.5em;*/
     font-family: Avenir, Verdana, sans-serif;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-left: 1em;
+
+    h1 {
+        text-align: left;
+        font-size: 3em;
+        line-height: 1em;
+        position: relative;
+        left: 25%;
+
+        +p {
+            /*subtitle*/
+            margin-top: .5em;
+            font-style: italic;
+            font-size: 110%;
+        }
+    }
+
+    #webaddress p {
+        margin-top: 1em;
+        position: relative;
+        left: 25%;
+        color: $red;
+        font-family: Monaco, Menlo, monospace, sans-serif;
+        font-size: 100%;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    p {
+        position: relative;
+        left: $left-margin;
+        margin-bottom: 0.7em;
+        margin-right: 0;
+        width: 55%;
+    }
+
+    ul {
+        position: relative;
+        left: $left-margin;
+        width: 75%;
+        margin-bottom: 1.5em;
+        margin-top: -0.5em;
+    }
+
+    /*uncomment to get dashes in the list*/
+    li {
+        /*second line indent*/
+        padding-left: 1.25em;
+        text-indent: -1.25em;
+        /*color: #777;*/
+
+        &:before {
+            content: "-";
+            position: relative;
+            left: -0.25em;
+        }
+
+        ul {
+            position: relative;
+            left: 0;
+            width: 100%;
+            margin-top: 0.25em;
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-weight: 400;
+        font-family: Avenir, Cousine, Verdana, sans-serif;
+        width: 80%;
+    }
+
+
+
+    h2 {
+        font-size: 1.1em;
+        color: $red;
+        margin-top: 1.5em;
+        position: relative;
+        top: 1.4em;
+        text-align: right;
+        width: 20%;
+    }
+
+    h3 {
+        font-size: 1em;
+        line-height: 2em;
+        position: relative;
+        top: 1.7em;
+        text-align: right;
+        width: 20%;
+    }
+
+    a {
+        @include word-wrap;
+        color: inherit;
+
+        &:hover {
+            color: $link-blue
+        }
+    }
+
+    em {
+        /* font-weight: bold; */
+        font-style: italic;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+
+    p code {
+        font: normal normal;
+        font-size: 90%;
+        /*line-height: 1em;*/
+        font-family: Monaco, Menlo, monospace, sans-serif;
+        color: $years-gray;
+
+        position: absolute;
+        text-align: right;
+        right: -20%;
+    }
 }
-
-p {
-    position: relative;
-    left: 25%;
-    margin-bottom: 0.7em;
-    margin-right: 0;
-    width: 55%;
-}
-
-code {
-    font: normal normal;
-    font-size: 90%;
-    /*line-height: 1em;*/
-    font-family: Monaco, Menlo, monospace, sans-serif;
-    color: #aaa;
-}
-
-p code {
-    position: absolute;
-    text-align: right;
-    right: -20%;
-}
-
-
-ul {
-    position: relative;
-    left: 25%;
-    width: 75%;
-    margin-bottom: 1.5em;
-    margin-top: -0.5em;
-}
-
-/*uncomment to get dashes in the list*/
-/* li:before {
-	content: "-";
-	position: relative;
-	left: -0.25em;
-} */
-
-li {
-    /*second line indent*/
-    padding-left: 1.25em;
-    text-indent: -1.25em;
-    /*color: #777;*/
-}
-
-li ul {
-    position: relative;
-    left: 0;
-    width: 100%;
-    margin-top: 0.25em;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    font-weight: 400;
-    font-family: Avenir, Cousine, Verdana, sans-serif;
-    width: 80%;
-}
-
-h1 {
-    text-align: left;
-    font-size: 3em;
-    line-height: 1em;
-    position: relative;
-    left: 25%;
-}
-
-h1+p {
-    /*subtitle*/
-    font-style: italic;
-    font-size: 110%;
-}
-
-h2 {
-    font-size: 1.1em;
-    color: #bc412b;
-    margin-top: 3em;
-    position: relative;
-    top: 1.4em;
-    text-align: right;
-    width: 20%;
-}
-
-h3 {
-    font-size: 1em;
-    line-height: 2em;
-    position: relative;
-    top: 1.7em;
-    text-align: right;
-    width: 20%;
-}
-
-a {
-    color: inherit;
-    text-decoration: none
-}
-
-a:hover {
-    color: #39f
-}
-
-#webaddress {
-    margin-top: 1em;
-    position: relative;
-    left: 25%;
-    color: #bc412b;
-    font-family: Monaco, Menlo, monospace, sans-serif;
-    font-size: 100%;
-}
-
-#webaddress a {
-    text-decoration: none;
-}
-
-em {
-    /* font-weight: bold; */
-    font-style: italic;
-}
-
-strong {
-    font-weight: bold;
-}
-
-#address {
-    display: none;
-}
-
-
-
-/*
-@media only screen and (max-width: 480px) {
-	make one column somehow...
-}*/

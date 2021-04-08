@@ -135,6 +135,9 @@ GEM
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
     jekyll-paginate (1.1.0)
+    jekyll-pandoc (2.0.1)
+      jekyll (>= 3.0)
+      pandoc-ruby (~> 2.0, >= 2.0.0)
     jekyll-readme-index (0.3.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-redirect-from (0.16.0)
@@ -221,6 +224,7 @@ GEM
     octokit (4.20.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
+    pandoc-ruby (2.1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
@@ -269,9 +273,10 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-font-awesome-sass
+  jekyll-pandoc (~> 2.0)
   kramdown
-  kramdown-parser-gfm (~> 1.1)
-  purecss-sass (~> 2.0)
+  kramdown-parser-gfm
+  purecss-sass
   sassc (= 2.1.0)
 
 BUNDLED WITH

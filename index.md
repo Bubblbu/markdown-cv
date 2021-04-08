@@ -46,23 +46,20 @@ working as a data scientist and working on an interdisciplinary PhD crossing the
 
 critical infrastructure studies, open science -->
 
-## Education & Training
+## Education
 
 `2017 — ongoing`
-__Simon Fraser University__ (Vancouver, Canada)
-
-- PhD in Critical Citation Studies (Interdisciplinary Individualized Studies)
+__Simon Fraser University__ (Vancouver, Canada)  
+PhD in Critical Citation Studies (Interdisciplinary Individualized Studies)
 
 `2013 — 2018`
-__University of Vienna__ (Vienna, Austria) & __University of Ljubljana__ (Ljubljana, Slovenia)
-
-- Completed all coursework towards MSc in Cognitive Science
+__University of Vienna__ (Vienna, Austria) & __University of Ljubljana__ (Ljubljana, Slovenia)  
+Completed all coursework towards MSc in Cognitive Science
 
 `2010 — 2014`
-__University of Applied Sciences Technikum__ (Vienna, Austria)
-
-- BSc, Electronics
-- Exchange semester at the University of Loughborough, UK in 2013
+__University of Applied Sciences Technikum__ (Vienna, Austria)  ****
+BSc, Electronics  
+Exchange semester at the University of Loughborough, UK in 2013
 
 ### Summerschools
 
@@ -81,80 +78,64 @@ __University of Applied Sciences Technikum__ (Vienna, Austria)
 ## Research Experience
 
 `Oct 2017 — ongoing`
-__ScholCommLab__ [<i class="fas fa-external-link-alt"></i>](https://scholcommlab.ca) Vancouver, CA
-
-- Data scientist on projects exploring the public dimension of scholarly communication 
-- Focus: *scholarly communication*, *altmetrics*, *research infrastructures*
+__ScholCommLab__ [<i class="fas fa-external-link-alt"></i>](https://scholcommlab.ca) Vancouver, CA  
+Data scientist on projects exploring the public dimension of scholarly communication  
+Focus: *scholarly communication*, *altmetrics*, *research infrastructures*
 
 `Jan 2015 — Dec 2015`
-__KnowCenter__ [<i class="fas fa-external-link-alt"></i>](https://www.know-center.tugraz.at/en/) Graz, AT
-
-- Junior researcher in open science and scientometrics
-- Focus: *open science*, *altmetrics*, *science 2.0*
+__KnowCenter__ [<i class="fas fa-external-link-alt"></i>](https://www.know-center.tugraz.at/en/) Graz, AT  
+Junior researcher in open science and scientometrics  
+Focus: *open science*, *altmetrics*, *science 2.0*
 
 `Mar 2015 — Oct 2015`
-__VRVis__ [<i class="fas fa-external-link-alt"></i>](https://www.vrvis.at/en/) Vienna, AT
-
-- Junior researcher on various medical imaging and analysis projects
-- Focus: *medical imaging*, *image processing*, *machine learning*
+__VRVis__ [<i class="fas fa-external-link-alt"></i>](https://www.vrvis.at/en/) Vienna, AT  
+Junior researcher on various medical imaging and analysis projects  
+Focus: *medical imaging*, *image processing*, *machine learning*
 
 `Oct 2014 — Dec 2014`
-__KnowCenter__ [<i class="fas fa-external-link-alt"></i>](https://www.know-center.tugraz.at/en/) Graz, AT
-
-- Internship on impact and dissemination of persistent document identifiers in scientific publishing
-- Focus: *science 2.0*, *social computing*, *scientometrics*
+__KnowCenter__ [<i class="fas fa-external-link-alt"></i>](https://www.know-center.tugraz.at/en/) Graz, AT  
+Internship on impact and dissemination of persistent document identifiers in scientific publishing  
+Focus: *science 2.0*, *social computing*, *scientometrics*
 
 `Jul 2014 — Sep 2014`
-__VRVis__ [<i class="fas fa-external-link-alt"></i>](https://www.vrvis.at/en/) Vienna, AT
-
-- Summer internship developing machine learning models in the automatized diagnosis of osteoporosis
-- Focus: *machine learning*, *medical imaging*
+__VRVis__ [<i class="fas fa-external-link-alt"></i>](https://www.vrvis.at/en/) Vienna, AT  
+Summer internship developing machine learning models in the automatized diagnosis of osteoporosis  
+Focus: *machine learning*, *medical imaging*
 
 ## Awards
 
 `Sep 2020`
 _Graduate Fellowship_, Simon Fraser University (7000 CAD)
 
-- 
-
 `Jul 2020`
-_Frictionless Tool Fund Grant_ (5000 USD)
-
-- Grant awarded to develop a new Open Source tool with Frictionless. 
+_Frictionless Tool Fund Grant_ (5000 USD)  
+Grant awarded to develop a new Open Source tool with Frictionless. 
 
 `Jan 2019`
 _Graduate Fellowship_, Simon Fraser University (6500 CAD) 
 
-- 
-
 `Jan 2019`
-_Travel & Minor Research Award_, Simon Fraser University (500 CAD)
-
-- Travel scholarship to attend and present STI in Leiden, Netherlands.
+_Travel & Minor Research Award_, Simon Fraser University (500 CAD)  
+Travel scholarship to attend and present STI in Leiden, Netherlands.
 
 `May 2018`
-_Travel Scholarship_, ELPUB (1000 CAD)
-
+_Travel Scholarship_, ELPUB (1000 CAD)  
 Travel scholarship to attend and present at ELPUB in Toronto, Canada.
 
 `Sep 2017`
 _Special Grad Entrance Scholarship_, Simon Fraser University (1146 CAD) 
 
-
 `Nov 2016`
-_Invitation to OpenCon 2016 - Travel Grant_ (1500 USD)
-
-- Competitively-awarded invitation to OpenCon (Washington D.C., USA) and travel grant.
+_Invitation to OpenCon 2016 - Travel Grant_ (1500 USD)  
+Competitively-awarded invitation to OpenCon (Washington D.C., USA) and travel grant.
 
 `Sep 2015`
-_RDA Early Career European Researchers Programme - Travel Grant_ (1500 EUR)
-
-- Travel grant to attend RDA 2015 as an early career researcher in Paris, FR.
+_RDA Early Career European Researchers Programme - Travel Grant_ (1500 EUR)  
+Travel grant to attend RDA 2015 as an early career researcher in Paris, FR.
 
 `Oct 2014`
-_INiTS Award - 3rd Place_ (1000 EUR)
-
-- INiTS awards innovative scientific works with prospect for economic applicability with the INiTS Award
+_INiTS Award - 3rd Place_ (1000 EUR)  
+INiTS awards innovative scientific works with prospect for economic applicability with the INiTS Award
 
 ## Publications 
 
@@ -185,7 +166,7 @@ Kraker, P., **Enkhbayar, A.**, & Lex, E. (2015). Exploring Coverage and Distribu
 `2016`
 Hladuvka, J., **Enkhbayar, A.**, Norman, B., & Ljuhar, R. (2016). Automated ROI placement and trabecula-driven orientation for radiographic texture analyses of calcaneus. *Proceedings - International Symposium on Biomedical Imaging*, 2016-June. [https://doi.org/10.1109/ISBI.2016.7493235](https://doi.org/10.1109/ISBI.2016.7493235)
 
-## Presentations and talks
+## Presentations
 
 ### Conference Talks
 
@@ -244,19 +225,16 @@ Open Science and Global Communication Divides. CMNS 346 (Development Communicati
 ### Volunteering & Open Source
 
 `2015 — 2012`
-**Open Knowledge Maps** [<i class="fas fa-external-link-alt"></i>](https://openknowledgemaps.org/)
-
-- Developer and team member. Core contributor to the codebase. Represented the project at several conferences.
+**Open Knowledge Maps** [<i class="fas fa-external-link-alt"></i>](https://openknowledgemaps.org/)  
+Developer and team member. Core contributor to the codebase. Represented the project at several conferences.
 
 `Jul 2018`
-**Open Source Alliance for Open Scholarship (OASOS)** [<i class="fas fa-external-link-alt"></i>](https://osaos.codeforscience.org/) New York, USA
-
-- Contributor to the development of the [Open Source Alliance for Open Scholarship (OASOS) Handbook](https://osaos.codeforscience.org/) hosted by Code for Science and Society.
+**Open Source Alliance for Open Scholarship (OASOS)** [<i class="fas fa-external-link-alt"></i>](https://osaos.codeforscience.org/) New York, USA  
+Contributor to the development of the [Open Source Alliance for Open Scholarship (OASOS) Handbook](https://osaos.codeforscience.org/) hosted by Code for Science and Society.
 
 `May 2018`
-**eLife Innovation Sprint** [<i class="fas fa-external-link-alt"></i>](https://sprint.elifesciences.org/sprint-2018/) Cambridge, UK
-
-- Participant at the first eLife Innovation Sprint was an Open Source coding sprint dedicated to scientific publishing.
+**eLife Innovation Sprint** [<i class="fas fa-external-link-alt"></i>](https://sprint.elifesciences.org/sprint-2018/) Cambridge, UK  
+Participant at the first eLife Innovation Sprint was an Open Source coding sprint dedicated to scientific publishing.
 
 ### Advisory Boards
 
