@@ -7,16 +7,33 @@
   <link href="{{ '/assets/css/screen.css' | relative_url }}" rel="stylesheet" media="screen">
   <link href="{{ '/assets/css/print.css' | relative_url }}" rel="stylesheet" media="print">
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-responsive-min.css" />
   <title> {{ page.title }} </title>
 </head>
 
 <body>
   <div id="main">
-    <div class="pure-g" id="content">
-      <div class="pure-u-1-1">
-        {{ content }}
+    <div class="pure-g">
+      <div class="left-col">
+        {% assign unis = site.data.universities %}
+        <h2>{{ unis.section }}</h2>
       </div>
+      <div class="center-col"></div>
+      <div class="right-col"></div>
     </div>
+    {% for uni in unis.items %}
+      <div class="pure-g">
+        <div class="left-col">
+          {% if unis.subsection %} {{unis.subsection}} {% endif %}
+        </div>
+        <div class="center-col">
+          <b>{{uni.name}}</b> ({{uni.location}})
+        </div>
+        <div class="right-col">
+          <p><code>{{  uni.date }}</code></p>
+        </div>
+      </div>
+    {% endfor %}
   </div>
 </body>
 
