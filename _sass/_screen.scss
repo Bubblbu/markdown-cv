@@ -16,11 +16,11 @@ body {
         font-size: 3em;
         line-height: 1em;
         position: relative;
-        left: 25%;
+        left: $left-margin;
 
         +p {
             /*subtitle*/
-            margin-top: .5em;
+            margin-top: -1.5em;
             font-style: italic;
             font-size: 110%;
         }
@@ -29,41 +29,43 @@ body {
     p {
         position: relative;
         left: $left-margin;
-        margin-top: 0;
-        margin-bottom: 0.7em;
+        margin-top: -.8em;
+        margin-bottom: 1.4em;
         margin-right: 0;
         width: 55%;
     }
 
-    #webaddress p {
-        margin-top: 1em;
-        position: relative;
-        left: 25%;
-        color: $red;
-        font-family: Monaco, Menlo, monospace, sans-serif;
-        font-size: 100%;
+    #webaddress {
+        p {
+            margin-top: 1em;
+            left: $left-margin;
+            color: $red;
+            font-family: Monaco, Menlo, monospace, sans-serif;
+            font-size: 100%;
 
-        a {
-            text-decoration: none;
+            a {
+                text-decoration: none;
+            }
         }
     }
 
-    
+
 
     ul {
         position: relative;
         left: $left-margin;
         width: 75%;
+        margin-top: -0.8em;
         margin-bottom: 1.5em;
-        margin-top: -0.5em;
         list-style-type: none;
         padding: 0;
 
         li {
             /*second line indent*/
             padding-left: 1.25em;
+            // padding-bottom: 0.25em;
             text-indent: -1.25em;
-    
+
             ul {
                 position: relative;
                 left: 0;
@@ -87,7 +89,7 @@ body {
     h2 {
         font-size: 1.1em;
         color: $red;
-        margin-top: 1.5em;
+        margin-top: 1em;
         position: relative;
         top: 1.4em;
         text-align: right;
@@ -105,7 +107,7 @@ body {
 
     a {
         @include word-wrap;
-        color: inherit;
+        color: $red;
 
         &:hover {
             color: $link-blue
