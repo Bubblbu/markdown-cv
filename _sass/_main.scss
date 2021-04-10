@@ -100,16 +100,11 @@ body {
     }
 
     .subsection {
+        // color: $red;
         font-size: 1.1em;
-        margin-bottom: .8em;
+        padding-bottom: .3em;
         @include breakpoint(md){
             margin-bottom: 0;
-        }
-    }
-
-    #currently {
-        p {
-            // width: 70%;
         }
     }
 
@@ -153,7 +148,7 @@ body {
 
     .entry {
         padding-bottom: 1em;
-        padding-left: .5em;
+        padding-left: .6em;
 
         @include breakpoint(md){
             padding-left: 0em;
