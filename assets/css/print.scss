@@ -2,7 +2,8 @@
 ---
 
 @import "normalize";
-@import "pure";
 @import "typography";
 @import "font-awesome";
-@import "screen";
+@import 'purecss';
+@import "main";
+@import "print";

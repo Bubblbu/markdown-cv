@@ -1,57 +1,99 @@
-$light-gray: #ccc;
+@media print {
+    header, footer, aside, form {
+        display: none;
+    }
 
-body {
-	font-size: 12pt;
-	line-height: 1.35em;
-	// margin: 2em 2em 2em 2em;
+	body {
+		margin: 0cm;
+		padding: 1.5cm;
 
-	p {
-		// left: $left-margin;
-		margin-bottom: 0.2em;
-		width: 60%;
-	}
-
-	code {
-		color: $light-gray;
-	}
-
-
-	ul {
-		margin-bottom: 1em;
-	}
-
-	h2 {
-		color: #a00;
-		margin-top: 1em;
-		position: relative;
-		top: 1.2em;
-	}
-
-	h3 {
-		color: $light-gray;
-		top: 1.6em;
-	}
-
-	a {
-		text-decoration: none
-	}
-
-	#webaddress p {
-		margin-top: 1em;
-		position: relative;
-		left: 25%;
-		color: $light-gray;
-		font-family: Monaco, Menlo, monospace, sans-serif;
-		font-size: 90%;
-
+		.reverse-col {
+			flex-direction: row;
+		}
+	
+		#title {
+			font-size: 2em;
+			line-height: 1em;
+			margin-bottom: 0em;
+			margin-top: 0em;
+		}
+	
+		#subtitle {
+			font-style: italic;
+			font-size: 1.3em;
+			margin-top: .5em;
+			margin-bottom: 1em;
+		}
+	
+		.section {
+			color: $red;
+			font-size: 1.1em;
+			margin-bottom: .2em;
+		}
+	
+		.subsection {
+			// color: $red;
+			font-size: 1.1em;
+			padding-bottom: 0em;
+			margin-bottom: .2em;
+		}
+	
 		a {
-			text-decoration: none;
+			&:hover {
+				color: $link-blue
+			}
+		}
+	
+		#webaddress {
+			margin-bottom: 1em;
+	
+			a {
+				font-family: Monaco, Menlo, monospace, sans-serif;
+				font-size: 100%;
+				color: $red;
+				text-decoration: none;
+			}
+		}
+	
+		.unit {
+			margin-top: 2em;
+	
+	
+	
+			ul {
+				margin-top: 0em;
+				margin-bottom: 0em;
+				list-style-type: none;
+			}
+	
+			p {
+				margin-top: 0em;
+				margin-bottom: 0em;
+			}
+		}
+	
+		.entry {
+			padding-bottom: 1em;
+			padding-left: .6em;
+	
+			a {
+				@include word-wrap;
+				color: $base-gray;
+			}
+	
+			.left-right-spaced {
+				display: flex;
+				justify-content: space-between;
+	
+				.years {
+					font-family: Monaco, Menlo, monospace, sans-serif;
+					color: $years-gray;
+					font-size: 90%;
+	
+					// margin-left: 0em;
+					text-align: right;
+				}
+			}
 		}
 	}
-
-	em {
-		font-style: normal;
-		color: #2d4e5e;
-	}
-
 }
