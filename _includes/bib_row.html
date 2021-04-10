@@ -1,14 +1,17 @@
 <div class="pure-g">
-  <div class="left-col">{% if include.index == 1 %}<h2 class="subsection">{{ include.section }}</h2>{% endif %}</div>
+  <div class="left-col">
+    {% if include.index == 1 %}
+    <h2 class="subsection">{{ include.section }}</h2>
+    {% endif %}
+  </div>
   <div class="center-col">
     <div class="entry">
-      <p class="left-right-spaced">
-          <span>{{ include.item.citation | markdownify | remove: '<p>' | remove: '</p>' }} <a
-              href="{{ include.item.link }}">{{ include.item.link }}</a></span>
-      </p>
+      <div class="left-right-spaced reverse-col">
+        <span>{{ include.item.citation | markdownify | remove: '<p>' | remove: '</p>' }} <a
+            href="{{ include.item.link }}">{{ include.item.link }}</a></span>
+        <span class="years">{{ include.item.date }}</span>
+      </div>
     </div>
   </div>
-  <div class="right-col">
-    <span class="years">{{ include.item.date }}</span>
-  </div>
+  <div class="right-col"></div>
 </div>

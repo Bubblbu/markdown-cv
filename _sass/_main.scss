@@ -53,24 +53,31 @@ body {
     .left-col {
         @extend .pure-u-1;
         @extend .pure-u-sm-1;
-        @extend .pure-u-md-1-5;
+        @extend .pure-u-md-1-6;
+
+        @include breakpoint(sm){
+            text-align: right;
+            padding-right: 4em;
+        }
     }
 
     .center-col {
         @extend .pure-u-1;
-        @extend .pure-u-sm-3-4;
-        @extend .pure-u-md-3-5;
+        @extend .pure-u-sm-1;
+        @extend .pure-u-md-2-3;
     }
 
     .right-col {
         @extend .pure-u-1;
-        @extend .pure-u-sm-1-4;
-        @extend .pure-u-md-1-5;
-        
+        @extend .pure-u-sm-1;
+        @extend .pure-u-md-1-6;
+    }
+
+    .reverse-col {
+        flex-direction: column-reverse;
         @include breakpoint(sm){
-            text-align: right;
+            flex-direction: row;
         }
-        padding-right: 0;
     }
 
     #title {
@@ -90,23 +97,25 @@ body {
     .section {
         color: $red;
         font-size: 1.2em;
-        @include breakpoint(md){
-            text-align: right;
-            }
-        padding-right: 10%;
     }
 
     .subsection {
         font-size: 1.1em;
+        margin-bottom: .8em;
         @include breakpoint(md){
-            text-align: right;
+            margin-bottom: 0;
         }
-        padding-right: 10%;
     }
 
     #currently {
         p {
             // width: 70%;
+        }
+    }
+
+    a {
+        &:hover {
+            color: $link-blue
         }
     }
 
@@ -118,15 +127,6 @@ body {
             font-size: 100%;
             color: $red;
             text-decoration: none;
-        }
-    }
-
-    a {
-        @include word-wrap;
-        color: $red;
-
-        &:hover {
-            color: $link-blue
         }
     }
 
@@ -151,22 +151,35 @@ body {
         }
     }
 
-    .years {
-        font-family: Monaco, Menlo, monospace, sans-serif;
-        color: $years-gray;
-        font-size: 90%;
-    }
-
     .entry {
         padding-bottom: 1em;
+        padding-left: .5em;
+
+        @include breakpoint(sm){
+            padding-left: 0em;
+        }
 
         a {
+            @include word-wrap;
             color: $base-gray;
         }
 
         .left-right-spaced {
             display: flex;
             justify-content: space-between;
+
+            .years {
+                font-family: Monaco, Menlo, monospace, sans-serif;
+                color: $years-gray;
+                font-size: 90%;
+
+                margin-left: 0em;
+                text-align: left;
+                @include breakpoint(sm){
+                    text-align: right;
+                    margin-left: 2em;
+                }
+            }
         }
     }
 }
