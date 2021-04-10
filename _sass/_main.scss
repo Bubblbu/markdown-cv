@@ -55,7 +55,7 @@ body {
         @extend .pure-u-sm-1;
         @extend .pure-u-md-1-6;
 
-        @include breakpoint(sm){
+        @include breakpoint(md){
             text-align: right;
             padding-right: 4em;
         }
@@ -155,7 +155,7 @@ body {
         padding-bottom: 1em;
         padding-left: .5em;
 
-        @include breakpoint(sm){
+        @include breakpoint(md){
             padding-left: 0em;
         }
 
