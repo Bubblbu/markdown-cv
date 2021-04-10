@@ -1,14 +1,8 @@
 # My CV
 
-This is my CV template powered by structured data and rendered by Jekyll and Pandoc.
+> No more formatting CVs!
 
-The web version is responsive and should also produce a pretty *meh* PDF version for now. More work to be done.
-
-The original version was inspired from [Eliseo Papa](https://elipapa.github.io) markdown-cv template.
-
-## Motivation
-
-Instead of constantly rewriting and formatting CVs manually, I want to have the information stored in one place that I can display and render quickly depending on the demand. This kinda does the job for now.
+This is a CV template that takes your structured, biographic data stored in YAML to produce a responsive web CV that also prints out (*kinda*) nicely. Instead of constantly rewriting and formatting CVs manually for updates, the data is pulled in and rendered according to the current layout.
 
 ## Current Features
 
@@ -48,3 +42,7 @@ This additional script is only required if you want to use Github Pages to have 
 - [ ] Use pandoc to render the bibliographic entries
 - [ ] Improve the layouting templates to make it easier to edit content
 - [ ] Add second layout for a non-academic CV
+
+## Acknowledgement
+
+The original version was inspired from [Eliseo Papa](https://elipapa.github.io) markdown-cv template.
