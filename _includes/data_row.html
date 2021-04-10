@@ -1,0 +1,38 @@
+<div class="pure-g">
+  <div class="left-col">
+    {% if include.index == 1 %}
+    <h2 class="{{ include.level }}">
+      {{ include.title }}
+    </h2>
+    {% endif %}
+  </div>
+  <div class="center-col">
+    <div class="entry">
+      <p class="left-right-spaced">
+        <span>
+          {% if include.style == "b" %}
+          <b>{{ include.item.name }}</b>
+          {% elsif include.style == "em" %}
+          <em>{{ include.item.name }}</em>
+          {% endif %}
+          {% if include.item.link %}
+          <a href="{{ item.link }}"><i class="fas fa-external-link-alt"></i></a>
+          {% endif %}
+          {% if include.item.location %}
+          ({{ include.item.location }})
+          {% endif %}
+        </span>
+        
+      </p>
+      {% if include.item.line1 %}
+      <p>
+        {{ include.item.line1 | markdownify | remove: '<p>' | remove: '</p>' }}
+        {% if include.item.line2 %}<br>{{ include.item.line2 | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}
+      </p>
+      {% endif %}
+    </div>
+  </div>
+  <div class="right-col">
+    <span class="years">{{ include.item.date }}</span>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+- title: Skills
+  level: section
+
+- title: Data in Practice
+  level: subsection
+  string: |
+    - Data analysis in Python, R
+      - Highly experienced data collection (e.g., APIs or text-processing)
+      - Highly experienced in data (structure) management
+      - Highly experienced in analysis, visualization, and presentation
+
+- string: |
+    - Familiar with web development
+      - Experience with databases
+      - Worked on small to middle-sized projects as a full-stack developer
+
+- string: |
+    - Comfortable with Open *
+      - Experienced with Open Source development
+      - Experienced in setting up open data and code for research projects
+      - Have worked remotely with distributed teams for 4+ years
+
+- title: Data in theory
+  level: subsection
+  string: |
+    - Social and technical dimension of infrastructure
+    - Critical and feminist approaches to data studies
+    - Citation theory
+    - The politics of scholarly metrics

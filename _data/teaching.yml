@@ -1,0 +1,24 @@
+- title: Teaching
+  level: section
+
+- title: Guest Lectures
+  level: subsection
+  items:
+    - date: Sep 2018
+      citation: "Open Science and Global Communication Divides. CMNS 346 (Development Communication) at *Simon Fraser University*. Course instructor: Katherine Reilly."
+      link: https://www.sfu.ca/students/calendar/2019/fall/courses/cmns/346.html
+
+- title: Workshops
+  level: subsection
+  items:
+  - date: 2017
+    citation: "**Enkhbayar, A.** (2017b, November 30). How and Why to Open Science—Grad Student Style [Workshop]. *II PhD Workshop*, Institute of Neurosciences, Barcelona."
+    link: http://www.neurociencies.ub.edu/wp-content/uploads/2017/11/II-PhD-Workshop-Institute-of-Neurosciences-Long-Version.pdf
+
+  - date: 2017
+    citation: "**Enkhbayar, A.** (2017a, June 23). Like if reductionist, comment if non-reductionist: A Comparison of the Almetric Perfomance in Neuroscientific Literature. *Mei:CogSci Conference 2017*, Budapest."
+    link: http://www.univie.ac.at/meicogsci/php/ocs/index.php/meicog/meicog2017/paper/view/1064
+
+  - date: 2016
+    citation: "**Enkhbayar, A.** (2016b, June 23). Raiders of the Lost Work [Workshop]. *MEi:CogSci Conference 2016*, Vienna."
+    link: http://www.univie.ac.at/meicogsci/php/ocs/index.php/meicog/meicog2016/paper/view/934

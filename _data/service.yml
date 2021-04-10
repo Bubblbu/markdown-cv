@@ -1,0 +1,67 @@
+- title: Service
+  level: section
+
+- title: Open Source
+  level: subsection
+  style: b
+  items:
+    - name: Open Knowledge Maps
+      date: 2014 — 2020
+      location: 
+      line1: Developer and team member. Core contributor to the codebase. Represented the project at several conferences.
+      line2: 
+      link: https://openknowledgemaps.org/
+
+    - name: Open Source Alliance for Open Scholarship (OASOS)
+      date: 2018
+      location: NYC, USA
+      line1: Contributor to the development of the [Open Source Alliance for Open Scholarship (OASOS)](https://osaos.codeforscience.org/) Handbook hosted by Code for Science and Society.
+      line2:
+      link: https://osaos.codeforscience.org/
+
+    - name: eLife Innovation Sprint
+      date: 2018
+      location: Cambridge, UK
+      line1: Participant at the first eLife Innovation Sprint was an Open Source coding sprint dedicated to scientific publishing.
+      line2: 
+      link: https://sprint.elifesciences.org/sprint-2018/
+
+- title: Advisory Boards
+  level: subsection
+  style: em
+  items:
+    - name: Open Knowledge Maps
+      date: 2020 — ongoing
+      link: https://openknowledgemaps.org/
+
+- title: Organizing Committees
+  level: subsection
+  style: em
+  items:
+    - name: FORCE11
+      date: 2021
+      location: online
+      line1: Developer and team member. Core contributor to the codebase. Represented the project at several conferences.
+      line2: 
+      link: https://www.force11.org/
+
+    - name: FORCE11 (postponed due to Covid-19)
+      date: 2020
+      location: San Sebastian, Spain
+      line1: 
+      line2:
+      link: https://www.force11.org/
+
+    - name: OpenCon Cascadia
+      date: 2018
+      location: Portland, USA
+      line1: 
+      line2: 
+      link: https://opencon-cascadia.github.io/about/
+
+    - name: OpenCon
+      date: 2017
+      location: Berlin, Germany
+      line1: 
+      line2: 
+      link: https://www.opencon.community/

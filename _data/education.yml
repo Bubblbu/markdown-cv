@@ -1,0 +1,48 @@
+- title: Education
+  level: section
+  style: b
+  items:
+    - name: Simon Fraser University
+      date: 2017 — ongoing
+      location: Vancouver, Canada
+      line1: PhD in Critical Citation Studies (Interdisciplinary Individualized Studies)
+      line2: 
+
+    - name: University of Vienna | University of Ljubljana
+      date: 2013 — 2018
+      location: Vienna, Austria | Ljubljana, Slovenia
+      line1: Completed all coursework towards MSc in Cognitive Science
+      line2:
+
+    - name: University of Applied Sciences Technikum
+      date: 2010 — 2014
+      location: Vienna, Austria
+      line1: BSc, Electronics
+      line2: Exchange semester at the University of Loughborough, UK in 2013
+- title: Summerschools
+  level: subsection
+  style: em
+  items:
+    - name: CWTS Scientometrics Summer School
+      date: 2018
+      location: Leiden, Netherlands
+      line1:
+      line2:
+
+    - name: Winter School Ethics and Neuroscience
+      date: 2017
+      location: Berlin, Germany
+      line1:
+      line2:
+
+    - name: Summerschool in Image Processing
+      date: 2016
+      location: Szeged, Hungary
+      line1:
+      line2:
+
+    - name: Interdisciplinary College in Cognitive Science
+      date: 2016
+      location: Günne, Germany
+      line1:
+      line2: 

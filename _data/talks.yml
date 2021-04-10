@@ -1,0 +1,46 @@
+- title: Talks
+  level: section
+  
+- title: Conference Talks
+  level: subsection
+  items:
+  - date: 2021
+    citation: "**Enkhbayar, A.** (2021, June 2). Metrics in Context: A Data Specification For Scholarly Metrics. *FOSDEM21*."
+    link: https://ftp.osuosl.org/pub/fosdem/2021/D.research/open_research_scholarly_metrics.webm
+
+  - date: 2020
+    citation: "**Enkhbayar, A.** (2020, August 19). Citations as Infrastructure: Developing an Analytic Framework For The Politics of Citations. 4S Annual Meeting. *EASST4S*, Prague."
+    link: http://tinyurl.com/y6pjcyc5
+
+  - date: 2019
+    citation: "**Enkhbayar, A.** (2019, May 9) Annotations in the Classroom; The Classroom in Annotations. *csv,conf,v4*, Portland, USA."
+    link: https://csvconf.com/2019/speakers/
+
+  - date: 2018
+    citation: "**Enkhbayar, A.** (2018, October 11). Throwing away the ladder. Wittgenstein’s philosophy and and scholarly communication [Conference talk]. *Future of Research Communication and e-Scholarship Conference*, Toronto, Canada."
+    link: https://doi.org/10.5281/zenodo.1462173
+
+- title: Posters
+  level: subsection
+  items:
+    - date: 2018
+      citation: "Alperin, J. P., **Enkhbayar, A.**, Piwowar, H., Priem, J., & Wass, J. (2018, September 28). Collecting, Calculating and Displaying Altmetrics with Open Source. *5AM: Altmetrics Conference*."
+      link: http://summit.sfu.ca/item/18390
+
+    - date: 2018
+      citation: "**Enkhbayar, A.**, Schramm, M., Kraker, P. (2018) Open Knowledge Maps: A visual interface to the world’s scientific knowledge. *International Conference on Electronic Publishing (ELPUB)*."
+
+    - date: 2017
+      citation: "**Enkhbayar, A.**, Fischer, B., Hoogland, D., Hopper, R., & Maroni, F. (2017, June). On the Very Idea of a Constructivist Master Program. Poster presented at the *MEi:CogSci Conference 2017*, Budapest. Retrieved from"
+      link: http://www.univie.ac.at/meicogsci/php/ocs/index.php/meicog/meicog2017/paper/view/994
+
+    - date: 2017
+      citation: "Kraker, P., **Enkhbayar, A.**, Schramm, M., Kittel, C., Chamberlain, S., Skaug, M., & Brembs, B. (2017, March). Open Knowledge Maps: A Visual Interface to the World’s Scientific Knowledge. Poster presented at the *Open Science Conference 2017*, Berlin."
+
+    - date: 2015
+      citation: "**Enkhbayar, A.** (2015). Bibliometric Crawling Framework & Digital Identifier Analysis. RDA 6th plenary meeting, Paris. Poster available:"
+      link: https://zenodo.org/record/50816
+      
+    - date: 2014
+      citation: "**Enkhbayar, A.** (2014, September 3). Automated ROI Placement in High-Resolution Radiographs of Calcaneus [Poster]. *Eurographics Workshop on Visual Computing for Biology and Medicine (VCBM 2014), Vienna*."
+      link: http://www.vcbm.org/previous-workshops/vcbm-2014-previous/vcbm-214-programme/

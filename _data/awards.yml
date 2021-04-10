@@ -1,0 +1,45 @@
+- title: Awards
+  level: section
+  style: em
+  items:
+    - name: Graduate Fellowship, Simon Fraser University 
+      date: Sep 2020
+      location: 7000 CAD
+
+    - name: Frictionless Tool Fund Grant
+      date: Jul 2020
+      location: 5000 USD
+      line1: Grant awarded to develop a new Open Source tool with Frictionless. 
+
+    - name: Graduate Fellowship, Simon Fraser University 
+      date: Jan 2019
+      location: 6500 CA
+
+    - name: Travel & Minor Research Award, Simon Fraser University 
+      date: Jan 2019
+      location: 500 CAD
+      line1: Travel scholarship to attend and present STI in Leiden, Netherlands.
+
+    - name: Travel Scholarship, ELPUB 
+      date: May 2018
+      location: 1000 CAD
+      line1: Travel scholarship to attend and present at ELPUB in Toronto, Canada.
+
+    - name: Special Grad Entrance Scholarship, Simon Fraser University 
+      date: Sep 2017
+      location: 1146 CA
+
+    - name: Invitation to OpenCon 2016 - Travel Grant
+      date: Nov 2016
+      location: 1500 USD
+      line1: Competitively-awarded invitation to OpenCon (Washington D.C., USA) and travel grant.
+
+    - name: RDA Early Career European Researchers Programme - Travel Grant
+      date: Sep 2015
+      location: 1500 EUR
+      line1: Travel grant to attend RDA 2015 as an early career researcher in Paris, FR.
+
+    - name: INiTS Award - 3rd Place
+      date: Oct 2014
+      location: 1000 EUR
+      line1: INiTS awards innovative scientific works with prospect for economic applicability with the INiTS Award

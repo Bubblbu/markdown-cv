@@ -1,0 +1,14 @@
+{% assign bio = include.bio %}
+<div id="webaddress">
+  <div class="pure-g">
+    <div class="left-col"></div>
+    <div class="center-col">
+      <a href="mailto:{{ data.bio.email }}"><i class="fas fa-envelope-square"></i> {{ bio.email }}</a>
+      <br>
+      <a href="https://twitter.com/{{ data.bio.twitter }}"><i class="fab fa-twitter"></i> {{ bio.twitter }}</a>
+      <a href="https://github.com/{{ data.bio.github }}"><i class="fab fa-github"></i> {{ bio.github }}</a>
+      <a href="https://orcid.org/{{ data.bio.orcid }}"><i class="fab fa-orcid"></i> {{ bio.orcid }}</a>
+    </div>
+  </div>
+</div>
+</div>

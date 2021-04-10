@@ -1,0 +1,5 @@
+<div class="unit">
+    {% for section in include.data %}
+    {% include text_row.html title=section.title content=section.string level=section.level %}
+    {% endfor %}
+</div>
