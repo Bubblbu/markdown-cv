@@ -7,29 +7,6 @@ $base-gray: #373D3F;
 $raven-gray: #6f747b;
 $bg: #f6f6f6;
 
-@mixin breakpoint($point) {
-    @if $point==sm {
-        @media screen and (min-width: 35.5em) {
-            @content ;
-        }
-    }
-    @else if $point==md {
-        @media screen and (min-width: 48em) {
-            @content ;
-        }
-    }
-    @else if $point==lg {
-        @media screen and (min-width: 64em) {
-            @content ;
-        }
-    }
-    @else if $point==xl {
-        @media screen and (min-width: 80em) {
-            @content ;
-        }
-    }
-}
-
 body {
     background-color: $bg;
     color: $base-gray;
