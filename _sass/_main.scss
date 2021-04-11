@@ -1,3 +1,7 @@
+@import "purecss";
+@import "helpers";
+
+// colors
 $base-gray: #373D3F;
 $years-gray: rgb(153, 153, 153);
 
@@ -8,6 +12,7 @@ $link-blue: #39f;
 
 $bg: #f6f6f6;
 
+// fonts
 $base-font-family: Gotham, Avenir, Verdana, sans-serif;
 $title-font-family:  Caslon, Avenir, Verdana, sans-serif;
 $year-font-family: Gotham, Menlo, monospace, sans-serif;
@@ -20,26 +25,41 @@ h2 {
 }
 
 body {
+    // Page margins:2em 2em;
+    padding-left: 10%;
+    padding-right: 10%;
+    @include breakpoint(xl){
+        padding-right: 15%;
+    }
+
+    margin-right: 0em;
+    @include breakpoint(md){
+        margin-right: 0em;
+    }
+    @include breakpoint(lg){
+        margin-right: 0em;
+    }
+    @include breakpoint(xl){
+        margin-right: 4em;
+    }
+
+    // Typography
     background-color: $bg;
     color: $base-gray;
     font-family: $base-font-family;
     font-size: 100%;
     line-height: 1.8em;
-    margin-top: 2em;
-    @include breakpoint(md){
-        margin-right: 5em;
-    }
 
-    // Page margins:2em 2em;
-    padding-left: 10%;
-    padding-right: 10%;
+    .pure-g {
+        font-family: $base-font-family;
+    }
 
     #title {
         font-family: $title-font-family;
         font-weight: bold;
-        font-size: 3em;
-        @include breakpoint(md){
-            margin-right: 4em;
+        font-size: 2.5em;
+        @include breakpoint(lg){
+            font-size: 3.5em;
         }
         line-height: 1em;
         margin-bottom: 0em;
@@ -51,6 +71,9 @@ body {
         font-style: italic;
         font-weight: normal;
         font-size: 1.5em;
+        @include breakpoint(lg){
+            font-size: 2em;
+        }
         margin-top: .5em;
         margin-bottom: 1em;
     }
@@ -80,6 +103,9 @@ body {
         color: $red;
         font-size: 1.3em;
         padding-bottom: .2em;
+        @include breakpoint(lg){
+            padding-right: 3em;
+        }
     }
 
     .subsection {
@@ -88,8 +114,12 @@ body {
         @include breakpoint(md){
             margin-bottom: 0;
         }
+        @include breakpoint(lg){
+            padding-right: 3em;
+        }
     }
 
+    // The actual dynamic content
     .content-block {
         margin-top: 2em;
 
@@ -103,7 +133,7 @@ body {
             }
 
             li {
-                padding-top: .2em;
+                padding-top: .07em;
             }
         }
 
@@ -163,21 +193,21 @@ body {
     }
 }
 
+// the grid layout
 .left-col {
     @extend .pure-u-1;
     @extend .pure-u-sm-1;
-    @extend .pure-u-md-1-6;
+    @extend .pure-u-lg-1-4;
 
-    @include breakpoint(md){
+    @include breakpoint(lg){
         text-align: right;
-        padding-right: 4em;
     }
 }
 
 .center-col {
     @extend .pure-u-1;
     @extend .pure-u-sm-1;
-    @extend .pure-u-md-2-3;
+    @extend .pure-u-lg-3-4;
 }
 
 .reverse-col {

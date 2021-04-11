@@ -1,21 +1,26 @@
+@import "font-awesome";
+
 @font-face {
   font-family: "Gotham";
-  src: url("../fonts/gotham/Gotham-Light.otf");
+  src: url("../fonts/gotham/Gotham-Book.otf");
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: "Gotham";
-  src: url("../fonts/gotham/Gotham-Bold.otf");
-  font-weight: bold;
-  font-style: normal;
-}
+
 @font-face {
   font-family: "Gotham";
   src: url("../fonts/gotham/Gotham-BookItalic.otf");
   font-weight: normal;
   font-style: italic;
 }
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/gotham/Gotham-Medium.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
 
 @font-face {
   font-family: "Caslon";
