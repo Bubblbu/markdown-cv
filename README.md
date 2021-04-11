@@ -45,4 +45,4 @@ This additional script is only required if you want to use Github Pages to have 
 
 ## Inspo
 
-The original version was inspired by [Eliseo Papa](https://elipapa.github.io) markdown-cv template.
+The original version was inspired  [Eliseo Papa](https://elipapa.github.io) markdown-cv template.

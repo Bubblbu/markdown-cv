@@ -16,6 +16,5 @@ exclude:
   - Gefile.lock
   - node_modules
 pandoc:
-  extensions:
-    # - csl: _styles/apa.csl
-    # - bibliography: temp.json
+  format: markdown
+  

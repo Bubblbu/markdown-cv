@@ -6,56 +6,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="{{ '/assets/css/screen.css' | relative_url }}" rel="stylesheet" media="screen">
   <link href="{{ '/assets/css/print.css' | relative_url }}" rel="stylesheet" media="print">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/base-min.css">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-min.css">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-responsive-min.css">
-  <title> {{ page.title }} </title>
+  <title> {{ page.author }}'s CV </title>
 </head>
-
-{% assign data = site.data %}
 
 <body>
   <div id="content">
     <div class="pure-g">
+      {% assign data = site.data %}
+
       <div class="left-col"></div>
       <div class="center-col">
         <h1 id="title">
-          {{ data.bio.name}}
+          {{ page.author }}
         </h1>
         <div id="subtitle">
-          {{ data.bio.position }}
+          {{ page.position }}
         </div>
       </div>
     </div>
 
-    {% include webaddress.html bio=data.bio %}
+    {% include webaddress.html data=page %}
 
-    {% include text_section.html data=data.summary %}
+    {% for cv_content in data.cv %}
+      {% assign cv_blocks  = cv_content | split: ";" %}
+      {% for cv_block in cv_blocks %}
+        {% assign block  = cv_block | split: "," %}
+        {% assign target = block[0] %}
+        {% assign template = block[1] %}
+        {% assign block_data = data[target] %}
 
-    {% include text_section.html data=data.skills %}
+        {% include {{ template }}.html data=block_data %}
+      {% endfor %}
+    {% endfor %}
 
-    {% include data_section.html data=data.education %}
-
-    {% include data_section.html data=data.jobs %}
-
-    {% include data_section.html data=data.awards %}
-
-    {% include bib_section.html data=data.papers %}
-
-    {% include bib_section.html data=data.talks %}
-
-    {% include bib_section.html data=data.teaching %}
-
-    {% include data_section.html data=data.service %}
-
-    
-    {% include text_row.html content="<br><hr>Last updated: 10.04.2021" %}
+    {% include text_row.html content="<br><hr>Last updated: 10.04.2021" markdown_off=true %}
 
   </div>
 </body>
-<!-- <footer>
-  <p>Author: Hege Refsnes</p>
-  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-</footer> -->
 
 </html>
