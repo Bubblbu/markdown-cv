@@ -5,6 +5,7 @@ sass:
   style: compressed
 plugins:
   - jekyll-font-awesome-sass
+  - jekyll-target-blank
 font-awesome:
   assets: true
 exclude:
@@ -14,4 +15,3 @@ exclude:
   - Gemfile
   - Gefile.lock
   - node_modules
-  
