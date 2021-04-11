@@ -152,11 +152,17 @@ body {
             margin-bottom: 0em;
             list-style-type: none;
             list-style-position: outside;
-            // padding-left: 1em;
+            padding-left: 1em;
 
             li > ul {
                 padding-bottom: .5em;
                 list-style-position: outside;
+
+                li::before {
+                    content: "N";
+                    font-family: "Pfeile";
+                    padding-right: .5em;
+                }
             }
 
             li {
@@ -166,12 +172,6 @@ body {
 
         .simpleText>ul {
             padding: 0;
-        }
-
-        li::before {
-            content: "N";
-            font-family: "Pfeile";
-            padding-right: .5em;
         }
 
         p {
