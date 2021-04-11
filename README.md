@@ -46,7 +46,7 @@ This additional script is only required if you want to use Github Pages to have 
 
 ## Roadmap
 
-- [ ] Improve PDF stylesheet for printed versions
+- [x] Improve PDF stylesheet for printed versions
 - [ ] Use pandoc to render the bibliographic entries
 - [ ] Add second layout for a non-academic CV
 
