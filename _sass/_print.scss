@@ -5,9 +5,15 @@
 
 	body {
 		margin: 0cm;
-		padding: 1.5cm;
+		padding: 1cm;
 
+		
+		// Typography
+		background-color: $bg;
+		color: $base-gray;
+		font-family: $base-font-family;
 		font-size: small;
+		line-height: 1.4em;
 
 		.reverse-col {
 			flex-direction: row;
@@ -29,72 +35,68 @@
 	
 		.section {
 			color: $red;
-			font-size: 1.1em;
-			margin-bottom: .2em;
+			font-size: 1.2em;
+			margin-bottom: 0em;
+			padding-top: .3em;
 		}
 	
 		.subsection {
 			// color: $red;
 			font-size: 1.1em;
 			padding-bottom: 0em;
-			margin-bottom: .2em;
-		}
-	
-		a {
-			&:hover {
-				color: $link-blue
-			}
+			padding-top: .3em;
+			// margin-bottom: .2em;
 		}
 	
 		#webaddress {
 			margin-bottom: 1em;
 	
 			a {
-				font-family: Monaco, Menlo, monospace, sans-serif;
 				font-size: 100%;
 				color: $red;
 				text-decoration: none;
 			}
 		}
 	
+		// The actual dynamic content
 		.content-block {
-			margin-top: 2em;
-	
-	
+			margin-top: .3em;
 	
 			ul {
 				margin-top: 0em;
 				margin-bottom: 0em;
 				list-style-type: none;
+				list-style-position: outside;
+				// padding-left: 1em;
+	
+				li > ul {
+					padding-bottom: .1em;
+					list-style-position: outside;
+				}
+	
+				li {
+					padding-top: 0em;
+				}
+			}
+	
+			.simpleText>ul {
+				padding: 0;
+			}
+	
+			li::before {
+				content: "N";
+				font-family: "Pfeile";
+				padding-right: .5em;
 			}
 	
 			p {
 				margin-top: 0em;
 				margin-bottom: 0em;
 			}
-		}
 	
-		.content-row {
-			padding-bottom: 1em;
-			padding-left: .6em;
-	
-			a {
-				@include word-wrap;
-				color: $base-gray;
-			}
-	
-			.left-right-spaced {
-				display: flex;
-				justify-content: space-between;
-	
-				.years {
-					font-family: Monaco, Menlo, monospace, sans-serif;
-					color: $years-gray;
-					font-size: 90%;
-	
-					// margin-left: 0em;
-					text-align: right;
-				}
+			.content-row {
+				padding-bottom: .5em;
+				padding-left: 0em;
 			}
 		}
 	}
