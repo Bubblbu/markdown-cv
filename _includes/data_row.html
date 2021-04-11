@@ -23,13 +23,14 @@
             ({{ include.item.location }})
             {% endif %}
           </div>
-          <div class="tagline">
+          <div class="tagline1">
             {% if include.item.line1 %}
-              <p>{{ include.item.line1 | markdownify | remove: '<p>' | remove: '</p>' }}
+              <p>{{ include.item.line1 | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            {% endif %}
+          </div>
+          <div class="tagline2">
             {% if include.item.line2 %}
-              <br>{{ include.item.line2 | markdownify | remove: '<p>' | remove: '</p>' }}
-              {% endif %}
-            </p>
+              <p>{{ include.item.line2 | markdownify | remove: '<p>' | remove: '</p>' }}</p>
             {% endif %}
           </div>
         </span>

@@ -1,7 +1,8 @@
 - title: Publications
   level: section
-  string: "a list of publications is available online: [https://scholar.google.com/citations?user=0CeeRv0AAAAJ](https://scholar.google.com/citations?user=0CeeRv0AAAAJ)"
-  string_md: true
+  string: >-
+    a list of publications is available online:
+    [https://scholar.google.com/citations?user=0CeeRv0AAAAJ](https://scholar.google.com/citations?user=0CeeRv0AAAAJ)
 
 - title: Journal Articles
   level: subsection

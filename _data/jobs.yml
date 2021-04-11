@@ -4,35 +4,47 @@
   items:
     - name: ScholCommLab
       link: https://scholcommlab.ca/
-      date: Oct 2017 — ongoing
+      date: since Oct 2017
       location: Vancouver, Canada
-      line1: Data scientist on projects exploring the public dimension of scholarly communication
-      line2: "Focus: *scholarly communication*, *altmetrics*, *research infrastructures*"
+      line1: Data Scientist \| *scholarly communication*
+      line2: >-
+        Independent research as well as lead for data science in collaborative research projects. Focus on reproducibility and 
+        transparency. Project lead for open source software development. 
+        
 
     - name: KnowCenter
       link: https://www.know-center.tugraz.at/en/
-      date: Jan 2015 — Dec 2015
+      date: Jan 2015—Dec 2015
       location: Graz, Austria
-      line1: Junior researcher in open science and scientometrics
-      line2: "Focus: *open science*, *altmetrics*, *science 2.0*"
+      line1: Junior researcher \| *open science*
+      line2: >-
+        Research on the dissemination of persistent identifiers for scholarly documents.
+        Research and development on visual search engines for academic articles.
 
     - name: VrVis
       link: https://www.vrvis.at/en/
       date: Mar 2015 — Oct 2015
       location: Szeged, Hungary
-      line1: Junior researcher on various medical imaging and analysis projects
-      line2: "Focus: *medical imaging*, *image processing*, *machine learning*"
+      line1: Junior researcher | *medical imaging*
+      line2: >-
+        Independent research into and development of a novel machine learning approach 
+        to classicy radiological images of heel bones to assess osteoporosis.
 
     - name: KnowCenter
       link: https://www.know-center.tugraz.at/en/
       date: Oct 2014 — Dec 2014
       location: Graz, Austria
-      line1: Junior researcher in open science and scientometrics
-      line2: "Focus: *science 2.0*, *social computing*, *scientometrics*"
+      line1: Internship | *scientometrics*
+      line2: >-
+        Exploration of various bibliometric and altmetric measures of scientific impact.
+        Development of language models for scientific literature and metrics 
+        collection frameworks for scientific literature. 
 
     - name: VrVis
       link: https://www.vrvis.at/en/
       date: Jul 2014 — Sep 2014
       location: Szeged, Hungary
-      line1: Summer internship developing machine learning models in the automatized diagnosis of osteoporosis
-      line2: "Focus: *machine learning*, *medical imaging*"
+      line1: Internship \| *medical imaging*
+      line2: >- 
+        Introduction to statistical methods and machine learning in medical imaging. First exposure to 
+        Python as my everyday working language.

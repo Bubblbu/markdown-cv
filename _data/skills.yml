@@ -4,10 +4,10 @@
 - title: Data in Practice
   level: subsection
   string: |- 
-    - Extensive experience in data science in **Python**
+    - Extensive experience with data science in **Python** and **Jupyter Notebooks**
       - Data collection (e.g., **APIs** or text-processing)
-      - **Initial data exploration** and wrangling
-      - Analysis & **visualization**
+      - Initial **data exploration** and wrangling
+      - Analysis and **visualization**
       - Comfortable with **open source** development and workflows
     - Experienced with **web** and app development
       - Worked on both front- as well as back-end stacks

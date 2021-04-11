@@ -3,16 +3,22 @@
   style: b
   items:
     - name: Simon Fraser University
-      date: 2017 — ongoing
+      date: since Oct 2017
       location: Vancouver, Canada
-      line1: PhD in Critical Citation Studies (Interdisciplinary Individualized Studies)
-      line2: 
+      line1: PhD, Critical Citation Studies (Interdisciplinary Individualized Studies)
+      line2: >-
+        Research exploring the concept of critical citation studies with empirical work on 
+        the social and technical dimensions of scholarly infrastructure. Established collabarations 
+        outside of reseach with infrastructure and open source organizations.
 
-    - name: University of Vienna | University of Ljubljana
+
+    - name: University of Vienna
       date: 2013 — 2018
-      location: Vienna, Austria | Ljubljana, Slovenia
-      line1: Completed all coursework towards MSc in Cognitive Science
-      line2:
+      location: Vienna, Austria
+      line1: MSc in Cognitive Science 
+      line2: >-
+        Completed a year abroad at the University of Ljubljana (Slovenia). 
+        Completed all coursework towards; thesis pending
 
     - name: University of Applied Sciences Technikum
       date: 2010 — 2014
