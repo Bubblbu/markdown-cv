@@ -37,7 +37,10 @@ body {
     #title {
         font-family: $title-font-family;
         font-weight: bold;
-        font-size: 4em;
+        font-size: 3em;
+        @include breakpoint(md){
+            margin-right: 4em;
+        }
         line-height: 1em;
         margin-bottom: 0em;
         margin-top: 1em;
