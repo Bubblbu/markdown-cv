@@ -10,25 +10,29 @@
     <div class="entry">
       <div class="left-right-spaced reverse-col">
         <span>
-          {% if include.style == "b" %}
-          <b>{{ include.item.name }}</b>
-          {% elsif include.style == "em" %}
-          <em>{{ include.item.name }}</em>
-          {% endif %}
-          {% if include.item.link %}
-          <a href="{{ item.link }}"><i class="fas fa-external-link-alt"></i></a>
-          {% endif %}
-          {% if include.item.location %}
-          ({{ include.item.location }})
-          {% endif %}
-
-          {% if include.item.line1 %}
-          <p>{{ include.item.line1 | markdownify | remove: '<p>' | remove: '</p>' }}
-            {% if include.item.line2 %}
-            <br>{{ include.item.line2 | markdownify | remove: '<p>' | remove: '</p>' }}
+          <div class="headline">
+            {% if include.style == "b" %}
+            <b>{{ include.item.name }}</b>
+            {% elsif include.style == "em" %}
+            <em>{{ include.item.name }}</em>
             {% endif %}
-          </p>
-          {% endif %}</span>
+            {% if include.item.link %}
+            <a href="{{ item.link }}"><i class="fas fa-external-link-alt"></i></a>
+            {% endif %}
+            {% if include.item.location %}
+            ({{ include.item.location }})
+            {% endif %}
+          </div>
+          <div class="tagline">
+            {% if include.item.line1 %}
+              <p>{{ include.item.line1 | markdownify | remove: '<p>' | remove: '</p>' }}
+            {% if include.item.line2 %}
+              <br>{{ include.item.line2 | markdownify | remove: '<p>' | remove: '</p>' }}
+              {% endif %}
+            </p>
+            {% endif %}
+          </div>
+        </span>
         <span class="years">{{ include.item.date }}</span>
       </div>
     </div>

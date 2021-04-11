@@ -4,26 +4,28 @@
 - title: Data in Practice
   level: subsection
   string: |- 
-    - Extensive experience in data science in Python, R
-      - Data collection (e.g., APIs or text-processing)
-      - Data management
-      - Analysis & visualization
+    - Extensive experience in data science in **Python**, R
+      - Data collection (e.g., **APIs** or text-processing)
+      - **Initial data exploration** and wrangling
+      - Analysis & **visualization**
+      - Comfortable with **open source** development and workflows
 
 - string: |-
-    - Familiar with web development
-      - Experience with databases
-      - Worked on small to middle-sized projects as a full-stack developer
+    - Experienced with **web** and app development
+      - Worked on both front- as well as back-end stacks
+      - Keen to explore and implement **new technology**
 
 - string: |-
-    - Comfortable with Open Source
-        - Worked in large open source projects
-        - Setting-up of data and code repositories for research projects
-        - Have worked remotely with distributed teams for 4+ years
+    - Actively involved in **research infrastructure**
+      - Developer and member of [Open Knowledge Maps](https://openknowledgemaps.org) for several years
+      - Current research uses but also **scrutinizes data** from scholarly infrastructure
+      - Very familiar with the broader **open science** landscape
 
 - title: Data in Theory
   level: subsection
   string: |-
-    - Social and technical dimension of infrastructure
-    - Critical and feminist approaches to data studies
-    - Citation theory
-    - The politics of scholarly metrics
+    - My data work is shapep by various concepts and frameworks:
+      - Technology studies: Technology is **political**.
+      - Performativity: The **"how"** of data matters.
+      - Critical data studies: Measurement (or metrics) is never **non-intrusive**.   
+

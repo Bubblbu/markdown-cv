@@ -5,6 +5,7 @@
   <meta charset=utf-8 />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="{{ '/assets/css/screen.css' | relative_url }}" rel="stylesheet" media="screen">
+  <link href="{{ '/assets/css/print.css' | relative_url }}" rel="stylesheet" media="print">
   <title> {{ page.author }}'s CV </title>
 </head>
 
@@ -37,7 +38,7 @@
       {% endfor %}
     {% endfor %}
 
-    {% include text_row.html content="<br><hr>Last updated: 10.04.2021" markdown=false %}
+    {% include text_row.html content="<br><hr>Last updated: 10.04.2021" html=true %}
 
   </div>
 </body>

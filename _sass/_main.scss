@@ -99,7 +99,12 @@ body {
             font-size: 100%;
             color: $red;
             text-decoration: none;
+            white-space: nowrap;
         }
+    }
+
+    i {
+        padding-right: 5px;
     }
 
     .unit {
@@ -129,6 +134,10 @@ body {
 
         @include breakpoint(md){
             padding-left: 0em;
+        }
+
+        .tagline {
+            font-size: 95%;
         }
 
         a {
