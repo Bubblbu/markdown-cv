@@ -2,15 +2,14 @@ require 'nokogiri'
 require 'pandoc-ruby'
 
 module Reading
-  class Generator < Jekyll::Generator
+  class CVGenerator < Jekyll::Generator
     def generate(site)
       md = site.pages[0].to_s
-      
-      a = Array.new 
-
       html = PandocRuby.convert(md, from: :markdown, to: :html)
       doc = Nokogiri::HTML(html)
-        
+
+      # build target,template pairs
+      a = Array.new 
       doc.css("pre").each do |link|
           target = link.content
           template = link.attribute('class').value
@@ -18,8 +17,8 @@ module Reading
           a.push(t)
       end
 
+      # concate the pairs into a list
       out = a.shift
-
       a.each do |pair|
         out = out + ";" + pair
       end

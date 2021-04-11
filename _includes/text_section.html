@@ -1,5 +1,8 @@
 <div class="unit">
-    {% for section in include.data %}
-    {% include text_row.html title=section.title content=section.string level=section.level %}
-    {% endfor %}
+    {% if section.hide %}
+    {% else %}
+        {% for row in include.data %}
+            {% include text_row.html title=row.title content=row.string level=row.level %}
+        {% endfor %}
+    {% endif %}
 </div>

@@ -7,11 +7,7 @@
   <div class="center-col">
     <div class="entry">
       <div class="simpleText">
-        {% if include.markdown_off %}
-          <p>{{ include.content }}</p>
-        {% else %}
-          <p>{{ include.content  | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-        {% endif %}
+        <p>{{ include.content | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       </div>
     </div>
   </div>

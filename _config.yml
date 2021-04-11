@@ -1,11 +1,10 @@
 baseurl: '/markdown-cv'
-markdown: Pandoc
+markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
 plugins:
   - jekyll-font-awesome-sass
-  - jekyll-pandoc
 font-awesome:
   assets: true
 exclude:
@@ -15,6 +14,4 @@ exclude:
   - Gemfile
   - Gefile.lock
   - node_modules
-pandoc:
-  format: markdown
   

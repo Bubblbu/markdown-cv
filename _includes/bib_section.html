@@ -1,13 +1,16 @@
 <div class="unit">
-  {% for section in include.data %}
-    {% if section.items %}
-      {% for item in section.items %}
-        {% assign index = forloop.index %}
-        {% include bib_row.html section=section.title level=section.level item=item index=index %}
-      {% endfor %}
-    {% else %}
+  {% if section.hide %}
+  {% else %}
+    {% for section in include.data %}
+      {% if section.items %}
+        {% for item in section.items %}
+          {% assign index = forloop.index %}
+          {% include bib_row.html section=section.title level=section.level item=item index=index %}
+        {% endfor %}
+      {% else %}
 
-      {% include text_row.html title=section.title content=section.string md=section.string_md level=section.level %}
-    {% endif %}
-  {% endfor %}
+        {% include text_row.html title=section.title content=section.string level=section.level %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 </div>

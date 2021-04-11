@@ -19,9 +19,11 @@
       location: Vienna, Austria
       line1: BSc, Electronics
       line2: Exchange semester at the University of Loughborough, UK in 2013
+      
 - title: Summerschools
+  hide: true
   level: subsection
-  style: em
+  style: b
   items:
     - name: CWTS Scientometrics Summer School
       date: 2018
