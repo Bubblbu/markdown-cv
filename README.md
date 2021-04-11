@@ -18,6 +18,14 @@ Currently, the layout is mostly driven by three kinds of content blocks which ta
 - Data block
 - Bibliographic block
 
+`index.md` determines the content of the CV. Using markdown code blocks you can specify which data file you want to load with the according content block type. For instance, to load the `papers.yml` file with the bibliographic content block include the following code snippet in your index file:
+
+````markdown
+```bib_section
+papers
+```
+````
+
 Each section then populates the CV with the content from the YAML files. The YAML files are structured as a list of sections and subsections with their respective content.
 
 ## Instructions
@@ -40,7 +48,6 @@ This additional script is only required if you want to use Github Pages to have 
 
 - [ ] Improve PDF stylesheet for printed versions
 - [ ] Use pandoc to render the bibliographic entries
-- [ ] Improve the layouting templates to make it easier to edit content
 - [ ] Add second layout for a non-academic CV
 
 ## Inspo
