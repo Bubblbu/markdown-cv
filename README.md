@@ -43,6 +43,6 @@ This additional script is only required if you want to use Github Pages to have 
 - [ ] Improve the layouting templates to make it easier to edit content
 - [ ] Add second layout for a non-academic CV
 
-## Acknowledgement
+## Inspo
 
-The original version was inspired from [Eliseo Papa](https://elipapa.github.io) markdown-cv template.
+The original version was inspired by [Eliseo Papa](https://elipapa.github.io) markdown-cv template.
