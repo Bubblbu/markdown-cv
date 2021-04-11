@@ -4,23 +4,24 @@
 - title: Data in Practice
   level: subsection
   string: |- 
-    - Extensive experience with data science in **Python** and **Jupyter Notebooks**
-      - Data collection (e.g., **APIs** or text-processing)
-      - Initial **data exploration** and wrangling
-      - Analysis and **visualization**
-      - Comfortable with **open source** development and workflows
-    - Experienced with **web** and app development
-      - Worked on both front- as well as back-end stacks
-      - Keen to explore and implement **new technology**
-    - Actively involved in **research infrastructure**
+    - **Extensive experience with data science in Python and Jupyter Notebooks**
+      - Data collection (e.g., APIs or text-processing)
+      - Initial data exploration and wrangling
+      - Analysis and visualization
+      - Comfortable with open source development and workflows
+    - **Experienced with web development**
+      - Knowledge of web app frameworks (mostly Python)
+      - Worked on both front- as well as back-end stacks with other tools
+      - Quick learner: keen to explore new technologies
+    - **Actively involved in research infrastructure**
       - Developer and member of [Open Knowledge Maps](https://openknowledgemaps.org) for several years
-      - Current research uses but also **scrutinizes data** from scholarly infrastructure
-      - Broad knowledge of the **open science** landscape
+      - Current research uses but also scrutinizes data from scholarly infrastructure
+      - Broad knowledge of the open science landscape
 
 - title: Data in Theory
   level: subsection
   string: |-
-    - My empirical data work is guided by several principles:
-      - Technology studies: Technology is always **political**.
-      - Critical data studies: **Metrics** alter the measured.   
-      - Performativity: The **"how"** of all data matters.
+    - **My empirical data work is guided by several principles:**
+      - Technology studies: Technology is always *political*.
+      - Critical data studies: *Metrics* alter the measured.   
+      - Performativity: The *"how"* of all data matters.
