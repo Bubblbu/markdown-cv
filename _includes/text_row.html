@@ -5,15 +5,17 @@
     </h2>
   </div>
   <div class="center-col">
-    <div class="entry">
-      <div class="simpleText">
-        {% if include.html %}
-          <p>{{ include.content }}</p>
-        {% else %}
-          <p>{{ include.content | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-        {% endif %}
+    {% if include.content %}
+      <div class="content-row">
+        <div class="simpleText">
+          {% if include.html %}
+            <p>{{ include.content }}</p>
+          {% else %}
+            <p>{{ include.content | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          {% endif %}
+        </div>
       </div>
-    </div>
+      {% endif %}
   </div>
   <div class="right-col"></div>
 </div>

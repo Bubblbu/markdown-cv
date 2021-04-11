@@ -4,7 +4,7 @@
 - title: Data in Practice
   level: subsection
   string: |- 
-    - Extensive experience in data science in **Python**, R
+    - Extensive experience in data science in **Python**
       - Data collection (e.g., **APIs** or text-processing)
       - **Initial data exploration** and wrangling
       - Analysis & **visualization**

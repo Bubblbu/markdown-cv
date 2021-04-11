@@ -71,14 +71,27 @@ body {
         margin-bottom: 1em;
     }
 
+    #webaddress {
+        margin-bottom: 1em;
+        font-size: 1.1em;
+
+        a {
+            font-family: Monaco, Menlo, monospace, sans-serif;
+            color: $red;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+    }
+
     .section {
         color: $red;
-        font-size: 1.2em;
+        font-size: 1.4em;
+        padding-bottom: .3em;
     }
 
     .subsection {
         // color: $red;
-        font-size: 1.1em;
+        font-size: 1.2em;
         padding-bottom: .3em;
         @include breakpoint(md){
             margin-bottom: 0;
@@ -91,26 +104,12 @@ body {
         }
     }
 
-    #webaddress {
-        margin-bottom: 1em;
-
-        a {
-            font-family: Monaco, Menlo, monospace, sans-serif;
-            font-size: 100%;
-            color: $red;
-            text-decoration: none;
-            white-space: nowrap;
-        }
-    }
-
     i {
         padding-right: 5px;
     }
 
-    .unit {
+    .content-block {
         margin-top: 2em;
-
-
 
         ul {
             margin-top: 0em;
@@ -126,39 +125,39 @@ body {
             margin-top: 0em;
             margin-bottom: 0em;
         }
-    }
 
-    .entry {
-        padding-bottom: 1em;
-        padding-left: .6em;
-
-        @include breakpoint(md){
-            padding-left: 0em;
-        }
-
-        .tagline {
-            font-size: 95%;
-        }
-
-        a {
-            @include word-wrap;
-            color: $base-gray;
-        }
-
-        .left-right-spaced {
-            display: flex;
-            justify-content: space-between;
-
-            .years {
-                font-family: Monaco, Menlo, monospace, sans-serif;
-                color: $years-gray;
-                font-size: 90%;
-
-                margin-left: 0em;
-                text-align: left;
-                @include breakpoint(sm){
-                    text-align: right;
-                    margin-left: 2em;
+        .content-row {
+            padding-bottom: 1em;
+            padding-left: .6em;
+    
+            @include breakpoint(md){
+                padding-left: 0em;
+            }
+    
+            .tagline {
+                font-size: 95%;
+            }
+    
+            a {
+                @include word-wrap;
+                color: $base-gray;
+            }
+    
+            .left-right-spaced {
+                display: flex;
+                justify-content: space-between;
+    
+                .years {
+                    font-family: Monaco, Menlo, monospace, sans-serif;
+                    color: $years-gray;
+                    font-size: 90%;
+    
+                    margin-left: 0em;
+                    text-align: left;
+                    @include breakpoint(sm){
+                        text-align: right;
+                        margin-left: 2em;
+                    }
                 }
             }
         }
