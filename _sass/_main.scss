@@ -1,68 +1,53 @@
+$base-gray: #373D3F;
+$years-gray: rgb(153, 153, 153);
+
 $red: #C02F1D;
 $dark-red: #5f2119;
-$link-blue: #39f;
-$years-gray: #aaa;
-$base-gray: #373D3F;
 
-$raven-gray: #6f747b;
+$link-blue: #39f;
+
 $bg: #f6f6f6;
+
+$base-font-family: Gotham, Avenir, Verdana, sans-serif;
+$title-font-family:  Caslon, Avenir, Verdana, sans-serif;
+$year-font-family: Gotham, Menlo, monospace, sans-serif;
+
+// Reset some stylings
+h1,
+h2 {
+    margin: 0 0;
+    font-weight: normal;
+}
 
 body {
     background-color: $bg;
     color: $base-gray;
-
-    font-family: Avenir, Verdana, sans-serif;
+    font-family: $base-font-family;
     font-size: 100%;
-    line-height: 1.5em;
+    line-height: 1.8em;
     margin-top: 2em;
     @include breakpoint(md){
         margin-right: 5em;
     }
 
-    // margin:2em 2em;
+    // Page margins:2em 2em;
     padding-left: 10%;
     padding-right: 10%;
 
-    h1,
-    h2 {
-        margin: 0 0;
-        font-weight: 400;
-    }
-
-    .left-col {
-        @extend .pure-u-1;
-        @extend .pure-u-sm-1;
-        @extend .pure-u-md-1-6;
-
-        @include breakpoint(md){
-            text-align: right;
-            padding-right: 4em;
-        }
-    }
-
-    .center-col {
-        @extend .pure-u-1;
-        @extend .pure-u-sm-1;
-        @extend .pure-u-md-2-3;
-    }
-
-    .reverse-col {
-        flex-direction: column-reverse;
-        @include breakpoint(sm){
-            flex-direction: row;
-        }
-    }
-
     #title {
-        font-size: 3em;
+        font-family: $title-font-family;
+        font-weight: bold;
+        font-size: 4em;
         line-height: 1em;
         margin-bottom: 0em;
         margin-top: 1em;
     }
 
     #subtitle {
+        font-family: $title-font-family;
         font-style: italic;
-        font-size: 1.3em;
+        font-weight: normal;
+        font-size: 1.5em;
         margin-top: .5em;
         margin-bottom: 1em;
     }
@@ -71,37 +56,35 @@ body {
         margin-bottom: 1em;
         font-size: 1.1em;
 
-        a {
-            font-family: Monaco, Menlo, monospace, sans-serif;
-            color: $red;
-            text-decoration: none;
-            white-space: nowrap;
+        i {
+            padding-right: 5px;
         }
+
+        a {
+            font-family: $year-font-family;
+            color: $red;
+            white-space: nowrap;
+            text-decoration: none;
+
+            &:hover {
+                color: $link-blue;
+            }
+        }
+
     }
 
     .section {
         color: $red;
-        font-size: 1.4em;
-        padding-bottom: .3em;
+        font-size: 1.3em;
+        padding-bottom: .2em;
     }
 
     .subsection {
-        // color: $red;
-        font-size: 1.2em;
-        padding-bottom: .3em;
+        font-size: 1.15em;
+        padding-bottom: .2em;
         @include breakpoint(md){
             margin-bottom: 0;
         }
-    }
-
-    a {
-        &:hover {
-            color: $link-blue
-        }
-    }
-
-    i {
-        padding-right: 5px;
     }
 
     .content-block {
@@ -110,15 +93,24 @@ body {
         ul {
             margin-top: 0em;
             margin-bottom: 0em;
-            list-style-type: none;
+            list-style-type: none;            
 
             li > ul {
-                padding-bottom: .3em;
+                padding-bottom: .5em;
+            }
+
+            li {
+                padding-top: .2em;
             }
         }
 
         .simpleText>ul {
             padding: 0;
+        }
+
+        li::before {
+            content: "\1F812";
+            padding-right: .5em;
         }
 
         p {
@@ -141,6 +133,10 @@ body {
             a {
                 @include word-wrap;
                 color: $base-gray;
+                
+                &:hover {
+                    color: $link-blue;
+                }
             }
     
             .left-right-spaced {
@@ -148,7 +144,7 @@ body {
                 justify-content: space-between;
     
                 .years {
-                    font-family: Monaco, Menlo, monospace, sans-serif;
+                    font-family: $year-font-family;
                     color: $years-gray;
                     font-size: 90%;
     
@@ -161,5 +157,29 @@ body {
                 }
             }
         }
+    }
+}
+
+.left-col {
+    @extend .pure-u-1;
+    @extend .pure-u-sm-1;
+    @extend .pure-u-md-1-6;
+
+    @include breakpoint(md){
+        text-align: right;
+        padding-right: 4em;
+    }
+}
+
+.center-col {
+    @extend .pure-u-1;
+    @extend .pure-u-sm-1;
+    @extend .pure-u-md-2-3;
+}
+
+.reverse-col {
+    flex-direction: column-reverse;
+    @include breakpoint(sm){
+        flex-direction: row;
     }
 }

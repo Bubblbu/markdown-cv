@@ -2,11 +2,11 @@
   <div class="pure-g">
     <div class="left-col"></div>
     <div class="center-col">
-      <a href="mailto:{{ data.bio.email }}"><i class="fas fa-envelope-square"></i>{{ include.data.email }}</a>
+      <a href="mailto:{{ include.data.email }}"><i class="fas fa-envelope-square"></i>{{ include.data.email }}</a>
       <br>
-      <a href="https://twitter.com/{{ data.bio.twitter }}"><i class="fab fa-twitter"></i>{{ include.data.twitter }}</a> 
-      <a href="https://github.com/{{ data.bio.github }}"><i class="fab fa-github"></i>{{ include.data.github }}</a> 
-      <a href="https://orcid.org/{{ data.bio.orcid }}"><i class="fab fa-orcid"></i>{{ include.data.orcid }}</a>
+      <a href="https://twitter.com/{{ include.data.twitter }}"><i class="fab fa-twitter"></i>{{ include.data.twitter }}</a> 
+      <a href="https://github.com/{{ include.data.github }}"><i class="fab fa-github"></i>{{ include.data.github }}</a> 
+      <a href="https://orcid.org/{{ include.data.orcid }}"><i class="fab fa-orcid"></i>{{ include.data.orcid }}</a>
     </div>
     <div class="right-col"></div>
   </div>
