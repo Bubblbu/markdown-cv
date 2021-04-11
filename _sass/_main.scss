@@ -25,6 +25,17 @@ h2 {
 }
 
 body {
+    // Typography
+    background-color: $bg;
+    color: $base-gray;
+    font-family: $base-font-family;
+    font-size: 100%;
+    line-height: 1.8em;
+
+    .pure-g {
+        font-family: $base-font-family;
+    }
+
     // Page margins:2em 2em;
     padding-left: 10%;
     padding-right: 10%;
@@ -43,15 +54,28 @@ body {
         margin-right: 4em;
     }
 
-    // Typography
-    background-color: $bg;
-    color: $base-gray;
-    font-family: $base-font-family;
-    font-size: 100%;
-    line-height: 1.8em;
+        // the grid layout
+    .left-col {
+        @extend .pure-u-1;
+        @extend .pure-u-sm-1;
+        @extend .pure-u-lg-1-4;
 
-    .pure-g {
-        font-family: $base-font-family;
+        @include breakpoint(lg){
+            text-align: right;
+        }
+    }
+
+    .center-col {
+        @extend .pure-u-1;
+        @extend .pure-u-sm-1;
+        @extend .pure-u-lg-3-4;
+    }
+
+    .reverse-col {
+        flex-direction: column-reverse;
+        @include breakpoint(sm){
+            flex-direction: row;
+        }
     }
 
     #title {
@@ -126,10 +150,13 @@ body {
         ul {
             margin-top: 0em;
             margin-bottom: 0em;
-            list-style-type: none;            
+            list-style-type: none;
+            list-style-position: outside;
+            // padding-left: 1em;
 
             li > ul {
                 padding-bottom: .5em;
+                list-style-position: outside;
             }
 
             li {
@@ -142,7 +169,8 @@ body {
         }
 
         li::before {
-            content: "\1F812";
+            content: "N";
+            font-family: "Pfeile";
             padding-right: .5em;
         }
 
@@ -190,29 +218,5 @@ body {
                 }
             }
         }
-    }
-}
-
-// the grid layout
-.left-col {
-    @extend .pure-u-1;
-    @extend .pure-u-sm-1;
-    @extend .pure-u-lg-1-4;
-
-    @include breakpoint(lg){
-        text-align: right;
-    }
-}
-
-.center-col {
-    @extend .pure-u-1;
-    @extend .pure-u-sm-1;
-    @extend .pure-u-lg-3-4;
-}
-
-.reverse-col {
-    flex-direction: column-reverse;
-    @include breakpoint(sm){
-        flex-direction: row;
     }
 }
