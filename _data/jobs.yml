@@ -1,4 +1,4 @@
-- title: Research Experience
+- title: Research Positions
   level: section
   style: b
   items:
@@ -24,7 +24,7 @@
     - name: VrVis
       link: https://www.vrvis.at/en/
       date: Mar 2015 — Oct 2015
-      location: Szeged, Hungary
+      location: Vienna, Austria
       line1: Junior researcher \| *medical imaging*
       line2: >-
         Independent research into and development of a novel machine learning approach 
@@ -43,7 +43,7 @@
     - name: VrVis
       link: https://www.vrvis.at/en/
       date: Jul 2014 — Sep 2014
-      location: Szeged, Hungary
+      location: Vienna, Austria
       line1: Internship \| *medical imaging*
       line2: >- 
         Introduction to statistical methods and machine learning in medical imaging. First exposure to 
