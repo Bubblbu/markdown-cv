@@ -9,5 +9,5 @@ group :jekyll_plugins do
 end
 gem 'kramdown-parser-gfm'
 gem 'purecss-sass'
-gem "nokogiri"
+gem 'nokogiri'
 gem "pandoc-ruby"
