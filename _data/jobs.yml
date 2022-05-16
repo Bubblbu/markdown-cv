@@ -2,15 +2,25 @@
   level: section
   style: b
   items:
+    - name: Invest in Open Infrastructure
+      link: investinopen.org/
+      date: Jul 2021 — Apr 2022
+      location: US | remote from Vancouver, Canada
+      line1: Research Data Analyst
+      line2: >- 
+        Worked on the development of the theoretical and conceptual foundations for IOI's work in advocating for more open 
+        and community-owned infrastructures. Conducted interviews and focus groups with various stakeholders in the space
+        including funders, institutions, and infrastructure providers and launched the [Catalog of Open Infrastructure Services]
+        (https://investinopen.org/research/catalog/) (COIs).
+
     - name: ScholCommLab
       link: https://scholcommlab.ca/
-      date: since Oct 2017
+      date: Oct 2017 — May 2021
       location: Vancouver, Canada
       line1: Data Scientist \| *scholarly communication*
       line2: >-
         Independent research as well as lead for data science in collaborative research projects. Focus on reproducibility and 
-        transparency. Project lead for open source software development. 
-        
+        transparency. Project lead for open source software development.
 
     - name: KnowCenter
       link: https://www.know-center.tugraz.at/en/
