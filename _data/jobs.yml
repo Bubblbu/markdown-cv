@@ -1,9 +1,25 @@
-- title: Research Positions
+- title: Work Experience
   level: section
   style: b
   items:
+    - name: OA.Works
+      link: https://oa.works/
+      date: Feb 2023 — ongoing
+      location: Remote from Vancouver, Canada
+      line1: Advisor
+      line2: >- 
+        Research and consultation work for OA.Works on its governance structure.
+
+    - name: DataSeerAI
+      link: https://dataseer.ai/
+      date: Jan 2023 — ongoing
+      location: Vancouver, Canada
+      line1: Data Scientist
+      line2: >- 
+        Development and assessment of Open Science Indicators around the generation and use of data, code, preprints, and protocols in scholarly publications.
+
     - name: Invest in Open Infrastructure
-      link: investinopen.org/
+      link: https://investinopen.org/
       date: Jul 2021 — Apr 2022
       location: US | remote from Vancouver, Canada
       line1: Research Data Analyst
@@ -40,21 +56,21 @@
         Independent research into and development of a novel machine learning approach 
         to classicy radiological images of heel bones to assess osteoporosis.
 
-    - name: KnowCenter
-      link: https://www.know-center.tugraz.at/en/
-      date: Oct 2014 — Dec 2014
-      location: Graz, Austria
-      line1: Internship \| *scientometrics*
-      line2: >-
-        Exploration of various bibliometric and altmetric measures of scientific impact.
-        Development of language models for scientific literature and metrics 
-        collection frameworks for scientific literature. 
+    # - name: KnowCenter
+    #   link: https://www.know-center.tugraz.at/en/
+    #   date: Oct 2014 — Dec 2014
+    #   location: Graz, Austria
+    #   line1: Internship \| *scientometrics*
+    #   line2: >-
+    #     Exploration of various bibliometric and altmetric measures of scientific impact.
+    #     Development of language models for scientific literature and metrics 
+    #     collection frameworks for scientific literature. 
 
-    - name: VrVis
-      link: https://www.vrvis.at/en/
-      date: Jul 2014 — Sep 2014
-      location: Vienna, Austria
-      line1: Internship \| *medical imaging*
-      line2: >- 
-        Introduction to statistical methods and machine learning in medical imaging. First exposure to 
-        Python as my everyday working language.
+    # - name: VrVis
+    #   link: https://www.vrvis.at/en/
+    #   date: Jul 2014 — Sep 2014
+    #   location: Vienna, Austria
+    #   line1: Internship \| *medical imaging*
+    #   line2: >- 
+    #     Introduction to statistical methods and machine learning in medical imaging. First exposure to 
+    #     Python as my everyday working language.
