@@ -7,16 +7,20 @@
 - title: Journal Articles
   level: subsection
   items:
+    - date: 2022
+      citation: "Fleerackers, A., Nehring, L., Maggio. L.A., **Enkhbayar, A.**, Moorhead L., Alperin J.P. (2022). Identifying science in the news: An assessment of the precision and recall of Altmetric. com news mention data. *Scientometrics*"
+      link: https://doi.org/10.1007/s11192-022-04510-7
+       
     - date: 2020
       citation: "**Enkhbayar, A.**, Haustein, S., Barata, G., & Alperin, J. P. (2020). How much research shared on Facebook happens outside of public pages and groups? A comparison of public and private online activity around PLOS ONE papers. *Quantitative Science Studies*, 1–22."
       link: https://doi.org/10.1162/qss_a_00044
 
     - date: 2019
-      citation: "Maggio, L. A., Ratcliff, C. L., Krakow, M., Moorhead, L. L., **Enkhbayar, A.**, & Alperin, J. P. (2019). Making headlines: An analysis of US government-funded cancer research mentioned in online media. *BMJ Open*, 9(2)."
+      citation: "Maggio, L.A., Ratcliff, C. L., Krakow, M., Moorhead, L. L., **Enkhbayar, A.**, & Alperin, J.P. (2019). Making headlines: An analysis of US government-funded cancer research mentioned in online media. *BMJ Open*, 9(2)."
       link: https://doi.org/10.1136/bmjopen-2018-025783
 
     - date: 2019
-      citation: "Tennant, J. P., Crane, H., Crick, T., Davila, J., **Enkhbayar, A.**, Havemann, J., Kramer, B., Martin, R., Masuzzo, P., Nobes, A., Rice, C., Rivera-López, B., Ross-Hellauer, T., Sattler, S., Thacker, P. D., & Vanholsbeeck, M. (2019). Ten Hot Topics around Scholarly Publishing. *Publications*, 7(2), 34."
+      citation: "Tennant, J.P., Crane, H., Crick, T., Davila, J., **Enkhbayar, A.**, Havemann, J., Kramer, B., Martin, R., Masuzzo, P., Nobes, A., Rice, C., Rivera-López, B., Ross-Hellauer, T., Sattler, S., Thacker, P. D., & Vanholsbeeck, M. (2019). Ten Hot Topics around Scholarly Publishing. *Publications*, 7(2), 34."
       link: https://doi.org/10/gf4gvx
 
     - date: 2016
