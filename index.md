@@ -1,6 +1,6 @@
 ---
 author: Asura Enkhbayar
-position: Data Scientist, PhD Candidate
+position: Data Scientist & Researcher
 
 email: asura.enkhbayar@gmail.com
 twitter: bubblbu_
@@ -20,11 +20,11 @@ skills
 ```
 
 ```data_section
-education
+jobs
 ```
 
 ```data_section
-jobs
+education
 ```
 
 ```data_section

@@ -1,22 +1,39 @@
 - title: Skills
   level: section
 
+- title: Infrastructure
+  level: subsection
+  string: |-
+    - **Experienced in working with, building, and assessing open infrastructure projects:**
+      - Extensive knowledge of global research infrastructure and open science landscape
+      - Highly familiar with issues of funding, governance, and sustainability
+      - Strong theoretical foundation in infrastructure studies and social justice concerns
+
 - title: Data in Practice
   level: subsection
   string: |- 
-    - **Extensive experience with data science in Python and Jupyter Notebooks**
-      - Data collection (e.g., APIs, text-processing)
-      - Initial data exploration and wrangling
-      - Analysis and visualization
-      - Open workflows and data preservation
-    - **Experience with web development**
-      - Web app frameworks (e.g., Django, Flask)
-      - Common front- as well as back-end stacks
-      - Quick learner: keen to explore new technologies
-    - **Active involvement in research infrastructure**
-      - Developer and member of [Open Knowledge Maps](https://openknowledgemaps.org) for several years
-      - Current research uses but also scrutinizes data from scholarly infrastructure
-      - Broad knowledge of the open science landscape
+    - **Years of experience as a data scientist working in various settings and scales:**
+      - Experienced in scoping, managing, and maintaining data projects
+      - Highly proficient in Python and Jupyter Notebooks
+      - Experience with web development for research and dissemination purposes
+
+# - title: Data in Practice
+#   level: subsection
+#   string: |- 
+#     - **Extensive experience with data science in Python and Jupyter Notebooks**
+#       - Data collection (e.g., APIs, text-processing)
+#       - Initial data exploration and wrangling
+#       - Analysis and visualization
+#       - Open workflows and data preservation
+#     - **Experience with web development**
+#       - Web app frameworks (e.g., Django, Flask)
+#       - Common front- as well as back-end stacks
+#       - Quick learner: keen to explore new technologies
+#     - **Active involvement in research infrastructure**
+#       - Developer and member of [Open Knowledge Maps](https://openknowledgemaps.org) for several years
+#       - Current research uses but also scrutinizes data from scholarly infrastructure
+#       - Broad knowledge of the open science landscape
+
 
 - title: Data in Theory
   level: subsection

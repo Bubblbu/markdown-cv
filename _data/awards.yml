@@ -2,32 +2,37 @@
   level: section
   style: b
   items:
-    - name: Graduate Fellowship, Simon Fraser University 
-      date: Sep 2020
-      location: 7000 CAD
+    - name: Coalition Publica Scholarship
+      date: Jul 2022
+      location: 8000 CAD
+      line2: Exploring the concept of Critical Citation Studies with focus on the social and technical dimensions of scholarly infrastructures. 
+
+    # - name: Graduate Fellowship, Simon Fraser University 
+    #   date: Sep 2020
+    #   location: 7000 CAD
 
     - name: Frictionless Tool Fund Grant
       date: Jul 2020
       location: 5000 USD
       line2: Development of an open source data specification for scholarly metrics. 
 
-    - name: Graduate Fellowship, Simon Fraser University 
-      date: Jan 2019
-      location: 6500 CA
+    # - name: Graduate Fellowship, Simon Fraser University 
+    #   date: Jan 2019
+    #   location: 6500 CA
 
-    - name: Travel & Minor Research Award, Simon Fraser University 
-      date: Jan 2019
-      location: 500 CAD
-      line2: Travel scholarship to attend and present STI in Leiden, Netherlands.
+    # - name: Travel & Minor Research Award, Simon Fraser University 
+    #   date: Jan 2019
+    #   location: 500 CAD
+    #   line2: Travel scholarship to attend and present STI in Leiden, Netherlands.
 
-    - name: Travel Scholarship, ELPUB 
-      date: May 2018
-      location: 1000 CAD
-      line2: Travel scholarship to attend and present at ELPUB in Toronto, Canada.
+    # - name: Travel Scholarship, ELPUB 
+    #   date: May 2018
+    #   location: 1000 CAD
+    #   line2: Travel scholarship to attend and present at ELPUB in Toronto, Canada.
 
-    - name: Special Grad Entrance Scholarship, Simon Fraser University 
-      date: Sep 2017
-      location: 1146 CA
+    # - name: Special Grad Entrance Scholarship, Simon Fraser University 
+    #   date: Sep 2017
+    #   location: 1146 CA
 
     - name: Invitation to OpenCon 2016 - Travel Grant
       date: Nov 2016
