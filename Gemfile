@@ -11,3 +11,4 @@ gem 'kramdown-parser-gfm'
 gem 'purecss-sass'
 gem 'nokogiri'
 gem "pandoc-ruby"
+gem "webrick", "~> 1.8"
