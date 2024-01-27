@@ -2,14 +2,6 @@
   level: section
   style: b
   items:
-    - name: OA.Works
-      link: https://oa.works/
-      date: Feb 2023 — ongoing
-      location: UK | remote from Vancouver, Canada
-      line1: Advisor
-      line2: >- 
-        Research and consultation work for OA.Works on its governance structure inlcuding the review and assessment of Articles of Governance (AoG).
-
     - name: DataSeerAI
       link: https://dataseer.ai/
       date: Jan 2023 — ongoing
@@ -17,6 +9,14 @@
       line1: Data Scientist
       line2: >- 
         Development and assessment of Open Science Indicators around the generation and use of data, code, preprints, and protocols in scholarly publications.
+  
+    - name: OA.Works
+      link: https://oa.works/
+      date: Feb 2023 — Jul 2023
+      location: UK | remote from Vancouver, Canada
+      line1: Advisor
+      line2: >- 
+        Research and consultation work for OA.Works on its governance structure inlcuding the review and assessment of Articles of Governance (AoG).
 
     - name: Invest in Open Infrastructure
       link: https://investinopen.org/
