@@ -3,16 +3,15 @@
   style: b
   items:
     - name: Simon Fraser University
-      date: since Oct 2017
+      date: 2017 - 2025
       location: Vancouver, Canada
-      line1: PhD, Critical Citation Studies (Individualized Interdisciplinary Studies)
+      line1: MA, Individualized Interdisciplinary Studies
       line2: >-
-        Research exploring the concept of critical citation studies with empirical work on 
-        the social and technical dimensions of scholarly infrastructure. Established collaborations 
-        outside of reseach with infrastructure and open source organizations.
+        Thesis: Citational Matters: Towards a Performative Theory of Citations
+        PhD candidacy work reframed into MA thesis
 
     - name: University of Vienna
-      date: 2013 — 2018
+      date: 2013 — 2016
       location: Vienna, Austria
       line1: MSc in Cognitive Science (partial)
       line2: >-
