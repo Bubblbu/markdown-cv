@@ -47,8 +47,11 @@
     {% endfor %}
     {% endfor %}
 
-    {% include text_row.html content="<br>
-    <hr>Last updated: 22.03.2023" html=true %}
+    {% capture last_updated_html %}
+    <br>
+    <hr>Last updated: {{ site.time | date: '%d.%m.%Y' }}
+    {% endcapture %}
+    {% include text_row.html content=last_updated_html html=true %}
 
   </div>
 </body>
