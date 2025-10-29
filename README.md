@@ -30,6 +30,14 @@ Each section then populates the CV with the content from the YAML files. The YAM
 
 ## Instructions
 
+### Install requirements
+
+Install Jekyll
+
+`gem install bundler jekyll`
+
+This repo also requires `pandoc` to be available on your system.
+
 ### Gemfiles to build and serve the CV
 
 Bundler will take care of all dependencies required to build and serve the CV.
