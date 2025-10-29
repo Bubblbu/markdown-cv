@@ -1,10 +1,10 @@
+url: "https://asura.github.io"
 baseurl: '/markdown-cv'
 markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
 plugins:
-  - jekyll-font-awesome-sass
   - jekyll-target-blank
 font-awesome:
   assets: true
