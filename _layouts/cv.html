@@ -4,8 +4,16 @@
 <head>
   <meta charset=utf-8 />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="{{ '/assets/css/print.css' | relative_url }}" rel="stylesheet" media="print">
+
+    <!-- Base/utility CSS first -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@3.0.0/build/pure-min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Your styles last so they override frameworks -->
   <link href="{{ '/assets/css/screen.css' | relative_url }}" rel="stylesheet" media="screen">
+  <link href="{{ '/assets/css/print.css'  | relative_url }}" rel="stylesheet" media="print">
+
   <title> {{ page.author }}'s CV </title>
 </head>
 
@@ -28,18 +36,19 @@
     {% include webaddress.html data=page %}
 
     {% for cv_content in data.cv %}
-      {% assign cv_blocks  = cv_content | split: ";" %}
-      {% for cv_block in cv_blocks %}
-        {% assign block  = cv_block | split: "," %}
-        {% assign target = block[0] %}
-        {% assign template = block[1] %}
-        {% assign block_data = data[target] %}
+    {% assign cv_blocks = cv_content | split: ";" %}
+    {% for cv_block in cv_blocks %}
+    {% assign block = cv_block | split: "," %}
+    {% assign target = block[0] %}
+    {% assign template = block[1] %}
+    {% assign block_data = data[target] %}
 
-        {% include {{ template }}.html data=block_data %}
-      {% endfor %}
+    {% include {{ template }}.html data=block_data %}
+    {% endfor %}
     {% endfor %}
 
-    {% include text_row.html content="<br><hr>Last updated: 22.03.2023" html=true %}
+    {% include text_row.html content="<br>
+    <hr>Last updated: 22.03.2023" html=true %}
 
   </div>
 </body>

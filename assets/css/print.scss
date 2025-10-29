@@ -1,6 +1,6 @@
 ---
 ---
-@import "normalize";
-@import "typography";
-@import "main";
-@import "print";
+
+@use "typography";
+@use "main";
+@use "print-styles";

@@ -1,21 +1,5 @@
-@import "purecss";
-@import "helpers";
-
-// colors
-$base-gray: #373D3F;
-$years-gray: rgb(153, 153, 153);
-
-$red: #C02F1D;
-$dark-red: #5f2119;
-
-$link-blue: #39f;
-
-$bg: #f6f6f6;
-
-// fonts
-$base-font-family: Gotham, Avenir, Verdana, sans-serif;
-$title-font-family:  Caslon, Avenir, Verdana, sans-serif;
-$year-font-family: Gotham, Menlo, monospace, sans-serif;
+@use "helpers" as *;
+@use "settings" as *;
 
 // Reset some stylings
 h1,
@@ -34,6 +18,36 @@ body {
 
     .pure-g {
         font-family: $base-font-family;
+
+        > .left-col,
+        > .center-col,
+        > .right-col {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        @include breakpoint(sm){
+            > .left-col,
+            > .center-col,
+            > .right-col {
+                float: left;
+            }
+        }
+
+        @include breakpoint(lg){
+            > .left-col {
+                width: 25%;
+                padding-right: 1.5em;
+            }
+
+            > .center-col {
+                width: 75%;
+            }
+
+            > .right-col {
+                width: 0%;
+            }
+        }
     }
 
     // Page margins:2em 2em;
@@ -56,19 +70,12 @@ body {
 
         // the grid layout
     .left-col {
-        @extend .pure-u-1;
-        @extend .pure-u-sm-1;
-        @extend .pure-u-lg-1-4;
-
         @include breakpoint(lg){
             text-align: right;
         }
     }
 
     .center-col {
-        @extend .pure-u-1;
-        @extend .pure-u-sm-1;
-        @extend .pure-u-lg-3-4;
     }
 
     .reverse-col {
