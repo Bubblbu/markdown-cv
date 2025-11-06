@@ -7,54 +7,56 @@
       date: Jan 2023 — Feb 2024
       location: Vancouver, Canada
       line1: Data Scientist
-      line2: >- 
-        Development and assessment of Open Science Indicators around the generation and use of data, code, preprints, and protocols in scholarly publications.
-  
-    - name: OA.Works
-      link: https://oa.works/
-      date: Feb 2023 — Jul 2023
-      location: UK | remote from Vancouver, Canada
-      line1: Advisor
-      line2: >- 
-        Research and consultation work for OA.Works on its governance structure inlcuding the review and assessment of Articles of Governance (AoG).
+      line2: |-
+        - Built an Open Science indicator pipeline covering 3k+ journals, combining NLP, entity resolution, and dashboard delivery for enterprise clients.
+        - Partnered with customer success and leadership to translate research metrics into product KPIs.
+        - Introduced reproducible analytics workflows that cut data preparation time from days to hours.
+
+    # - name: Vancouver Tenants Union
+    #   link: https://www.vancouvertenantsunion.ca/
+    #   date: 2020 — present
+    #   location: Vancouver, Canada
+    #   line1: Volunteer Data & Organising Lead
+    #   line2: |-
+    #     - Co-lead organising analytics for a 2k-member advocacy network; maintain membership, outreach, and campaign performance dashboards.
+    #     - Train tenant leaders on data-informed strategy, enabling neighbourhood chapters to prioritise cases and escalation tactics.
+    #     - Develop privacy-conscious data practices that let volunteers document landlord behaviour while protecting residents.
+
+    # - name: OA.Works
+    #   link: https://oa.works/
+    #   date: Feb 2023 — Jul 2023
+    #   location: UK | remote from Vancouver, Canada
+    #   line1: Advisor
+    #   line2: |-
+    #     - Led a rapid review of governance and revenue models, producing recommendations adopted by the board to modernise the Articles of Governance.
 
     - name: Invest in Open Infrastructure
       link: https://investinopen.org/
       date: Jul 2021 — Apr 2022
       location: US | remote from Vancouver, Canada
       line1: Research Data Analyst
-      line2: >- 
-        Worked on the development of the theoretical and conceptual foundations for IOI's work in advocating for more open 
-        and community-owned infrastructures. Conducted interviews and focus groups with various stakeholders in the space
-        including funders, institutions, and infrastructure providers and launched the [Catalog of Open Infrastructure Services]
-        (https://investinopen.org/research/catalog/) (COIs).
+      line2: |-
+        - Delivered qualitative and quantitative research with 70+ funders, institutions, and infrastructure providers to inform IOI's strategy.
+        - Launched the [Catalog of Open Infrastructure Services](https://investinopen.org/research/catalog/) as a public knowledge base of 200+ tools.
 
     - name: ScholCommLab
       link: https://scholcommlab.ca/
       date: Oct 2017 — May 2021
       location: Vancouver, Canada
-      line1: Data Scientist \| *scholarly communication*
-      line2: >-
-        Independent research as well as lead for data science in collaborative research projects. Focus on reproducibility and 
-        transparency. Project lead for open source software development.
+      line1: Lead Data Scientist
+      line2: |-
+        - Built and maintained the lab's data science stack, supporting 15+ concurrent research projects across institutions.
+        - Directed open-source tool development (incl. scholarly data pipelines).
+        - Mentored interdisciplinary teams on reproducibility, code review, and data use.
 
-    - name: KnowCenter
-      link: https://www.know-center.tugraz.at/en/
-      date: Jan 2015 — Dec 2015
-      location: Graz, Austria
-      line1: Junior researcher \| *open science*
-      line2: >-
-        Research on the dissemination of persistent identifiers for scholarly documents.
-        Research and development on visual search engines for academic articles.
-
-    - name: VrVis
-      link: https://www.vrvis.at/en/
-      date: Mar 2015 — Oct 2015
-      location: Vienna, Austria
-      line1: Junior researcher \| *medical imaging*
-      line2: >-
-        Independent research into and development of a novel machine learning approach 
-        to classicy radiological images of heel bones to assess osteoporosis.
+    - name: Earlier roles
+      date: 2015 — 2016
+      location: Austria
+      line1: Researcher & Data Scientist
+      line2: |-
+        - Delivered machine-learning prototypes for medical imaging at VrVis.
+        - Advanced persistent identifier adoption and visual discovery tools at Know-Center.
+        - Lead major rewrite and refactoring of [Open Knowledge Maps](https://openknowledgemaps.org/).
 
     # - name: KnowCenter
     #   link: https://www.know-center.tugraz.at/en/
