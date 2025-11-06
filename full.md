@@ -1,7 +1,6 @@
 ---
 author: Asura Enkhbayar
-position: data enthusiast who cares about governance, infrastructure, and sustainability 
-location: Vancouver, BC
+position: Data Scientist & Researcher
 
 email: asura.enkhbayar@gmail.com
 twitter: bubblbu_
@@ -25,13 +24,25 @@ jobs
 ```
 
 ```data_section
-service
-```
-
-```data_section
 education
 ```
 
-<!-- ```data_section
+```data_section
 awards
-``` -->
+```
+
+```bib_section
+papers
+```
+
+```bib_section
+talks
+```
+
+```bib_section
+teaching
+```
+
+```data_section
+service
+```

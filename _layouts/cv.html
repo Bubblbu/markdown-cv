@@ -5,7 +5,7 @@
   <meta charset=utf-8 />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Base/utility CSS first -->
+  <!-- Base/utility CSS first -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="https://unpkg.com/purecss@3.0.0/build/pure-min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -29,30 +29,75 @@
         <div id="subtitle">
           {{ page.position }}
         </div>
+        <div id="location">
+          <i class="fas fa-map-pin"></i> {{ page.location }}
+        </div>
       </div>
       <div class="right-col"></div>
     </div>
 
+    <!-- Details -->
     {% include webaddress.html data=page %}
 
-    {% for cv_content in data.cv %}
-    {% assign cv_blocks = cv_content | split: ";" %}
-    {% for cv_block in cv_blocks %}
-    {% assign block = cv_block | split: "," %}
-    {% assign target = block[0] %}
-    {% assign template = block[1] %}
-    {% assign block_data = data[target] %}
-
-    {% include {{ template }}.html data=block_data %}
+    <!-- Content -->
+    {% capture content_markup %}{{ content }}{% endcapture %}
+    {% assign sections = content_markup | split: '<code' %}
+    {% for raw_section in sections %}
+      {% if forloop.first %}
+        {% continue %}
+      {% endif %}
+      {% assign section_parts = raw_section | split: '</code>' %}
+      {% assign code_chunk = section_parts[0] | default: '' %}
+      {% assign code_attrs = code_chunk | split: '>' | first | strip %}
+      {% assign code_text = code_chunk | split: '>' | last | strip %}
+      {% assign lines = code_text | split: '\n' %}
+      {% assign section_type = '' %}
+      {% if code_attrs contains 'language-' %}
+        {% assign section_type = code_attrs | split: 'language-' | last %}
+        {% assign section_type = section_type | split: '"' | first %}
+      {% endif %}
+      {% assign skip_first_line = false %}
+      {% if section_type == '' %}
+        {% assign skip_first_line = true %}
+        {% for line in lines %}
+          {% assign clean_line = line | strip %}
+          {% if clean_line != '' %}
+            {% assign section_type = clean_line %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if section_type != '' %}
+        {% assign first_line_handled = false %}
+        {% for line in lines %}
+          {% assign clean_line = line | strip %}
+          {% if clean_line == '' %}
+            {% continue %}
+          {% endif %}
+          {% if skip_first_line and first_line_handled == false %}
+            {% assign first_line_handled = true %}
+            {% if clean_line == section_type %}
+              {% continue %}
+            {% endif %}
+          {% endif %}
+          {% assign first_line_handled = true %}
+          {% if skip_first_line and clean_line == section_type %}
+            {% continue %}
+          {% endif %}
+          {% assign section_data = data[clean_line] %}
+          {% include {{ section_type }}.html data=section_data %}
+        {% endfor %}
+      {% endif %}
     {% endfor %}
-    {% endfor %}
 
-    {% capture last_updated_html %}
-    <br>
-    <hr>Last updated: {{ site.time | date: '%d.%m.%Y' }}
-    {% endcapture %}
-    {% include text_row.html content=last_updated_html html=true %}
-
+    <!-- Footer -->
+    <div class="no-print">
+      {% capture last_updated_html %}
+        <br>
+        <hr>Last updated: {{ site.time | date: '%d.%m.%Y' }}
+      {% endcapture %}
+      {% include text_row.html content=last_updated_html html=true %}
+    </div>
   </div>
 </body>
 

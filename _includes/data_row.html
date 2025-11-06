@@ -8,34 +8,34 @@
   </div>
   <div class="center-col">
     <div class="content-row">
-      <div class="left-right-spaced reverse-col">
-        <span>
-          <div class="headline">
-            {% if include.style == "b" %}
-            <b>{{ include.item.name }}</b>
-            {% elsif include.style == "em" %}
-            <em>{{ include.item.name }}</em>
-            {% endif %}
-            {% if include.item.link %}
-            <a href="{{ include.item.link }}"><i class="fas fa-external-link-alt"></i></a>
-            {% endif %}
-            {% if include.item.location %}
-            ({{ include.item.location }})
-            {% endif %}
-          </div>
-          <div class="tagline1">
-            {% if include.item.line1 %}
-              <p>{{ include.item.line1 | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-            {% endif %}
-          </div>
-          <div class="tagline2">
-            {% if include.item.line2 %}
-              <p>{{ include.item.line2 | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-            {% endif %}
-          </div>
-        </span>
+      <div class="content-header left-right-spaced">
+        <div class="headline">
+          {% if include.style == "b" %}
+          <b>{{ include.item.name }}</b>
+          {% elsif include.style == "em" %}
+          <em>{{ include.item.name }}</em>
+          {% endif %}
+          {% if include.item.link %}
+          <a href="{{ include.item.link }}"><i class="fas fa-external-link-alt"></i></a>
+          {% endif %}
+          {% if include.item.location %}
+          ({{ include.item.location }})
+          {% endif %}
+        </div>
+        {% if include.item.date %}
         <span class="years">{{ include.item.date }}</span>
+        {% endif %}
       </div>
+      {% if include.item.line1 %}
+      <div class="tagline1">
+        <p>{{ include.item.line1 | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      </div>
+      {% endif %}
+      {% if include.item.line2 %}
+      <div class="tagline2">
+        <p>{{ include.item.line2 | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      </div>
+      {% endif %}
     </div>
   </div>
 </div>

@@ -68,14 +68,11 @@ body {
         margin-right: 4em;
     }
 
-        // the grid layout
+    // the grid layout
     .left-col {
         @include breakpoint(lg){
             text-align: right;
         }
-    }
-
-    .center-col {
     }
 
     .reverse-col {
@@ -88,7 +85,7 @@ body {
     // content
     #title {
         font-family: $title-font-family;
-        font-weight: bold;
+        font-weight: 700;
         font-size: 2.5em;
         @include breakpoint(lg){
             font-size: 3.5em;
@@ -101,13 +98,25 @@ body {
     #subtitle {
         font-family: $title-font-family;
         font-style: italic;
-        font-weight: normal;
+        font-weight: 700;
         font-size: 1.5em;
         @include breakpoint(lg){
-            font-size: 2em;
+            font-size: 1.8em;
         }
         margin-top: .5em;
         margin-bottom: 1em;
+    }
+
+    #location {
+        font-family: $title-font-family;
+        // font-style: italic;
+        font-weight: normal;
+        font-size: 1.1em;
+        @include breakpoint(lg){
+            font-size: 1.1em;
+        }
+        margin-top: .4em;
+        // margin-bottom: 1em;
     }
 
     #webaddress {
@@ -167,8 +176,7 @@ body {
                 list-style-position: outside;
 
                 li::before {
-                    content: "N";
-                    font-family: "Pfeile";
+                    content: "‣";
                     padding-right: .5em;
                 }
             }
@@ -195,8 +203,16 @@ body {
                 padding-left: 0em;
             }
     
+            .tagline1 {
+                font-style: italic;
+            }
+
             .tagline2 {
-                font-size: 90%;
+                margin-top: .3em;
+                ul {
+                    margin-top: 0em;
+                    margin-bottom: 0em;
+                }
             }
     
             a {
@@ -207,23 +223,31 @@ body {
                     color: $link-blue;
                 }
             }
-    
+
+            .content-header {
+                width: 100%;
+            }
+
             .left-right-spaced {
                 display: flex;
+                align-items: baseline;
                 justify-content: space-between;
-    
+                column-gap: .75em;
+                flex-wrap: wrap;
+
+                .headline {
+                    flex: 1 1 auto;
+                    min-width: 0;
+                }
+
                 .years {
                     font-family: $year-font-family;
                     color: $years-gray;
-                    font-size: 90%;
+                    font-size: 95%;
                     white-space: nowrap;
-    
-                    margin-left: 0em;
-                    text-align: left;
-                    @include breakpoint(sm){
-                        text-align: right;
-                        margin-left: 2em;
-                    }
+                    margin-left: auto;
+                    text-align: right;
+                    flex: 0 0 auto;
                 }
             }
         }

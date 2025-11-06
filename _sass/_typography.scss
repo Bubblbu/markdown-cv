@@ -1,51 +1,60 @@
 @font-face {
   font-family: "Gotham";
   src: url("../fonts/gotham/Gotham-Book.otf");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gotham";
   src: url("../fonts/gotham/Gotham-BookItalic.otf");
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Gotham";
   src: url("../fonts/gotham/Gotham-Medium.otf");
-  font-weight: bold;
-  font-style: normal;
+  font-weight: 500;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/gotham/Gotham-Bold.otf");
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/gotham/Gotham-BoldItalic.otf");
+  font-weight: 700;
+  font-style: italic;
 }
 
 
 @font-face {
   font-family: "Caslon";
   src: url("../fonts/adobe-caslon-pro/ACaslonPro-Regular.otf");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Caslon";
   src: url("../fonts/adobe-caslon-pro/ACaslonPro-Semibold.otf");
-  font-weight: bold;
+  font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Caslon";
   src: url("../fonts/adobe-caslon-pro/ACaslonPro-SemiboldItalic.otf");
-  font-weight: bold;
+  font-weight: 600;
   font-style: italic;
 }
 @font-face {
   font-family: "Caslon";
   src: url("../fonts/adobe-caslon-pro/ACaslonPro-Italic.otf");
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic;
-}
-
-@font-face {
-  font-family: 'Pfeile';
-  src: url('../fonts/pfeile/PfeileTwo.ttf');
 }
