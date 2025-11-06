@@ -1,44 +1,27 @@
 - title: Skills
   level: section
 
-- title: Infrastructure
+- title: Analytics & Engineering
   level: subsection
   string: |-
-    - **Experienced in working with, building, and assessing open infrastructure projects:**
-      - Extensive knowledge of global research infrastructure and open science landscape
-      - Highly familiar with issues of funding, governance, and sustainability
-      - Strong theoretical foundation in infrastructure studies and social justice concerns
+    - **Analyze _complex data_, build _reliable_ analytics systems, _impactful_ data visualization** 
+      - Highly proficient in working with large and diverse datasets including collection, analysis & visualization. 
+      - Automated data pipelines avoiding tech debt which prioritize documentation, transparency, and reproducibility. 
+      - Build reports, data visualizations, and dashboards backed by statistical methods and machine learning.
 
-- title: Data in Practice
-  level: subsection
-  string: |- 
-    - **Years of experience as a data scientist working in various settings and scales:**
-      - Experienced in scoping, managing, and maintaining data projects
-      - Highly proficient in Python and Jupyter Notebooks
-      - Experience with web development for research and dissemination purposes
-
-# - title: Data in Practice
-#   level: subsection
-#   string: |- 
-#     - **Extensive experience with data science in Python and Jupyter Notebooks**
-#       - Data collection (e.g., APIs, text-processing)
-#       - Initial data exploration and wrangling
-#       - Analysis and visualization
-#       - Open workflows and data preservation
-#     - **Experience with web development**
-#       - Web app frameworks (e.g., Django, Flask)
-#       - Common front- as well as back-end stacks
-#       - Quick learner: keen to explore new technologies
-#     - **Active involvement in research infrastructure**
-#       - Developer and member of [Open Knowledge Maps](https://openknowledgemaps.org) for several years
-#       - Current research uses but also scrutinizes data from scholarly infrastructure
-#       - Broad knowledge of the open science landscape
-
-
-- title: Data in Theory
+- title: Governance & Sustainability
   level: subsection
   string: |-
-    - **My empirical data work is guided by several principles:**
-      - Technology studies: Technology is always *political*.
-      - Critical data studies: *Metrics* alter the measured.   
-      - Performativity: The *"how"* of all data matters.
+    - **Creating _trustworthy_ data infrastructure and _metrics_ through _technical_ & _social_ means**
+      - Enthusiastic about documenting the seemingly mundane such as research methodologies, operational processes and organizational structure.
+      - Deep understanding of the impact of governance structure on data infrastructure and technology.
+      - Centers community engagement after 10+ years as an advocate for open science, open data, & open source.
+
+- title: Leadership & Collaboration
+  level: subsection
+  string: |-
+    - **Leadership and _capacity-building_ through _collaboration_, _shared learning_, _collective growth_**
+      - Experienced facilitator and communicator skilled in translating complex research and data into accessible, actionable insights.
+      - Design and co-lead peer education, study circles, and onboarding processes that cultivate confidence, shared responsibility, and community-based leadership.
+      - Foster environments where leadership is distributed—built through education, reflection, and collaboration rather than hierarchy—enabling teams to take initiative and sustain collective direction.
+
