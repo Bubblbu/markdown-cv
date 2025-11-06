@@ -3,26 +3,24 @@
   style: b
   items:
     - name: Simon Fraser University
-      date: 2017 - 2025
+      date: 2017 — 2025
       location: Vancouver, Canada
-      line1: MA, Individualized Interdisciplinary Studies
+      line1: MA, Individualized Interdisciplinary Studies (ABD)
       line2: >-
-        Thesis: Citational Matters: Towards a Performative Theory of Citations
-        PhD candidacy work reframed into MA thesis
+        Research on critical citation studies and sociotechnical governance of scholarly infrastructure; PhD candidacy work reframed into an applied MA thesis.
 
     - name: University of Vienna
       date: 2013 — 2016
       location: Vienna, Austria
       line1: MSc in Cognitive Science (partial)
       line2: >-
-        Completed a year abroad at the University of Ljubljana (Slovenia). 
-        Completed all coursework towards degree; thesis pending.
+        Completed all coursework (incl. year abroad at the University of Ljubljana); thesis pending while pursuing professional opportunities.
 
     - name: University of Applied Sciences Technikum
       date: 2010 — 2014
       location: Vienna, Austria
-      line1: BSc, Electronics
-      line2: Term abroad at the University of Loughborough (UK) in 2013
+      line1: BSc, Electronics & Information Technology
+      line2: Completed an international exchange at Loughborough University (UK).
       
 - title: Summerschools
   hide: true
