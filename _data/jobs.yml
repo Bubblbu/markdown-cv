@@ -49,14 +49,14 @@
         - Directed open-source tool development (incl. scholarly data pipelines).
         - Mentored interdisciplinary teams on reproducibility, code review, and data use.
 
-    - name: Earlier roles
-      date: 2015 — 2016
-      location: Austria
-      line1: Researcher & Data Scientist
-      line2: |-
-        - Delivered machine-learning prototypes for medical imaging at VrVis.
-        - Advanced persistent identifier adoption and visual discovery tools at Know-Center.
-        - Lead major rewrite and refactoring of [Open Knowledge Maps](https://openknowledgemaps.org/).
+    # - name: Earlier roles
+    #   date: 2015 — 2016
+    #   location: Austria
+    #   line1: Researcher & Data Scientist
+    #   line2: |-
+    #     - Delivered machine-learning prototypes for medical imaging at VrVis.
+    #     - Advanced persistent identifier adoption and visual discovery tools at Know-Center.
+    #     - Lead major rewrite and refactoring of [Open Knowledge Maps](https://openknowledgemaps.org/).
 
     # - name: KnowCenter
     #   link: https://www.know-center.tugraz.at/en/
